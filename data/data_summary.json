@@ -1,0 +1,90 @@
+{
+  "total_subreddits": 12,
+  "total_posts": 5997,
+  "subreddit_stats": {
+    "MachineLearning": {
+      "total_posts": 500,
+      "date_range": "2025-08-11 23:10:51 - 2025-10-21 06:17:43",
+      "avg_score": 27.064,
+      "avg_comments": 19.134,
+      "avg_upvote_ratio": 0.7497
+    },
+    "datascience": {
+      "total_posts": 500,
+      "date_range": "2025-04-29 05:59:54 - 2025-10-21 08:54:24",
+      "avg_score": 126.878,
+      "avg_comments": 37.016,
+      "avg_upvote_ratio": 0.80998
+    },
+    "Python": {
+      "total_posts": 500,
+      "date_range": "2025-09-12 01:27:44 - 2025-10-21 14:42:39",
+      "avg_score": 35.68,
+      "avg_comments": 15.024,
+      "avg_upvote_ratio": 0.66706
+    },
+    "statistics": {
+      "total_posts": 500,
+      "date_range": "2025-07-10 06:05:22 - 2025-10-21 14:49:28",
+      "avg_score": 10.578,
+      "avg_comments": 9.698,
+      "avg_upvote_ratio": 0.77932
+    },
+    "deeplearning": {
+      "total_posts": 500,
+      "date_range": "2025-09-02 23:41:27 - 2025-10-21 16:17:12",
+      "avg_score": 7.624,
+      "avg_comments": 3.59,
+      "avg_upvote_ratio": 0.72754
+    },
+    "DataEngineering": {
+      "total_posts": 500,
+      "date_range": "2025-09-21 09:10:09 - 2025-10-21 16:41:05",
+      "avg_score": 41.61,
+      "avg_comments": 16.264,
+      "avg_upvote_ratio": 0.77418
+    },
+    "rstats": {
+      "total_posts": 500,
+      "date_range": "2025-03-13 13:38:35 - 2025-10-21 08:57:16",
+      "avg_score": 15.884,
+      "avg_comments": 8.854,
+      "avg_upvote_ratio": 0.7667999999999999
+    },
+    "computervision": {
+      "total_posts": 500,
+      "date_range": "2025-09-11 23:25:10 - 2025-10-21 15:56:26",
+      "avg_score": 18.392,
+      "avg_comments": 6.258,
+      "avg_upvote_ratio": 0.79864
+    },
+    "NLP": {
+      "total_posts": 500,
+      "date_range": "2022-12-26 21:24:36 - 2025-10-21 01:23:46",
+      "avg_score": 5.084,
+      "avg_comments": 10.174,
+      "avg_upvote_ratio": 0.7998999999999999
+    },
+    "bigdata": {
+      "total_posts": 500,
+      "date_range": "2025-01-17 03:38:20 - 2025-10-21 07:35:05",
+      "avg_score": 1.874,
+      "avg_comments": 0.844,
+      "avg_upvote_ratio": 0.84006
+    },
+    "analytics": {
+      "total_posts": 500,
+      "date_range": "2025-08-15 08:58:54 - 2025-10-21 16:51:42",
+      "avg_score": 11.166,
+      "avg_comments": 11.054,
+      "avg_upvote_ratio": 0.75314
+    },
+    "machinelearningmemes": {
+      "total_posts": 497,
+      "date_range": "2019-03-05 03:43:40 - 2025-07-17 07:22:13",
+      "avg_score": 42.80482897384306,
+      "avg_comments": 1.460764587525151,
+      "avg_upvote_ratio": 0.9223138832997988
+    }
+  }
+}
