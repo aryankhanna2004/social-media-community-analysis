@@ -40,8 +40,6 @@ class Post:
     upvote_ratio: float = 0.0
     is_original_content: bool = False
 
-    def __post_init__(self):
-        pass
 
 
 class BaseScraper:
