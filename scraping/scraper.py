@@ -346,7 +346,6 @@ async def main():
     summary = collector.generate_data_summary(all_data)
 
     # Save summary as JSON
-    import json
     with open(os.path.join(collector.output_dir, "data_summary.json"), 'w') as f:
         json.dump(summary, f, indent=2, default=str)
 
