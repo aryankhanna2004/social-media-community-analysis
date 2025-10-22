@@ -66,9 +66,9 @@ This project collects data from Reddit subreddits using the official Reddit API.
 
 The scraper automatically loads credentials from the `.env` file in your project root.
 
-**Your Credentials** (already configured in `.env`):
-- **client_id**: `e_d6Cf0_Xfe40aNIglEG2w`
-- **client_secret**: `WWjWURzloey0TYcyCQh1-0S8uNDjUQ`
+**Credentials Setup**:  
+- Create a `.env` file in your project root using the template provided in `env-example.txt` (or `.env.example`).  
+- Fill in your own Reddit API `client_id` and `client_secret` as described in the template.
 
 ### Running the Scraper
 
