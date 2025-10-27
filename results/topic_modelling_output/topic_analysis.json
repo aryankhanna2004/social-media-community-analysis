@@ -1,0 +1,1051 @@
+{
+  "topic_info": "    Topic  ...                                Representative_Docs\n0      -1  ...  [Yummy Yummy Yummy Episode 5-6 Discussion Post...\n1       0  ...  [Dhadak 2 Movie Review: A Beautiful Shell with...\n2       1  ...  [The Maid - can't get over how good this short...\n3       2  ...  [Mandarin Songs with Similar Titles, Part 3. C...\n4       3  ...  [Please help find the name of this series !!!....\n5       4  ...  [KIIRAS - 1st Single: BANG BANG! (Teaser Image...\n6       5  ...  [\"sorry, ALAMAT...\" Part 1 - Destino EP Video ...\n7       6  ...  [Silent Honor \u6c89\u9ed8\u7684\u8363\u8000 (An Ye Shen Hai \u6697\u591c\u6df1\u6d77) from...\n8       7  ...  [Movie of the Day: Dollhouse (2025) by Shinobu...\n9       8  ...  [New to anime (Especially Romantics). So I hav...\n10      9  ...  [Manto (2018) sourcing with English subtitles....\n11     10  ...  [Gachiakuta - Episode 16 discussion. *Gachiaku...\n12     11  ...  [NiziU - \u2661Emotion (Dance Practice Behind) (251...\n13     12  ...  [NTX - The 3rd Mini Album: PROTO TYPE (Concept...\n14     13  ...  [Atonement Trailer, Topakk Trailer, \u201cNice to N...\n15     14  ...  [ARVVY - 1st Digital Single: \ub108\ub9cc\uc758 \uc544\uc774\ub3cc\uc774 \ub420 \uac70\uc57c \u2665 (...\n16     15  ...  [Resaleing Zhou Shen NYC ticket for 3/9 if any...\n17     16  ...  [Fated Hearts Episodes 13 - 14 Discussion. **W...\n18     17  ...  [Which K-drama actors are known for having the...\n19     18  ...  [[MNL48 RELATED CONTENT] DURING THE MNL48 DREA...\n20     19  ...  [PLEASE help me find a very VERY niche anime.....\n\n[21 rows x 5 columns]",
+  "topic_representations": {
+    "0": [
+      [
+        "love story",
+        "0.3844932"
+      ],
+      [
+        "hai",
+        "0.36284155"
+      ],
+      [
+        "loved",
+        "0.3385477"
+      ],
+      [
+        "hindi",
+        "0.33181357"
+      ],
+      [
+        "feels",
+        "0.2680262"
+      ],
+      [
+        "ka",
+        "0.26161122"
+      ],
+      [
+        "cast",
+        "0.25843388"
+      ],
+      [
+        "underrated",
+        "0.25426424"
+      ],
+      [
+        "emotional",
+        "0.23953688"
+      ],
+      [
+        "felt",
+        "0.23917633"
+      ]
+    ],
+    "1": [
+      [
+        "kdrama",
+        "0.39554885"
+      ],
+      [
+        "kdramas",
+        "0.32165492"
+      ],
+      [
+        "dramas",
+        "0.32050878"
+      ],
+      [
+        "drama",
+        "0.25519305"
+      ],
+      [
+        "episode",
+        "0.24285832"
+      ],
+      [
+        "watched",
+        "0.23429714"
+      ],
+      [
+        "watch",
+        "0.233359"
+      ],
+      [
+        "shows",
+        "0.22914715"
+      ],
+      [
+        "acting",
+        "0.22696188"
+      ],
+      [
+        "ending",
+        "0.22688547"
+      ]
+    ],
+    "2": [
+      [
+        "liu",
+        "0.25904843"
+      ],
+      [
+        "lee",
+        "0.2573037"
+      ],
+      [
+        "huang",
+        "0.24977481"
+      ],
+      [
+        "zhou",
+        "0.22976027"
+      ],
+      [
+        "youtu",
+        "0.2223261"
+      ],
+      [
+        "notable",
+        "0.2189153"
+      ],
+      [
+        "yao",
+        "0.21472952"
+      ],
+      [
+        "wei",
+        "0.20934516"
+      ],
+      [
+        "2019",
+        "0.20690636"
+      ],
+      [
+        "wang",
+        "0.19684054"
+      ]
+    ],
+    "3": [
+      [
+        "drama watched",
+        "0.32509676"
+      ],
+      [
+        "drama",
+        "0.3176692"
+      ],
+      [
+        "main character",
+        "0.3097535"
+      ],
+      [
+        "chinese drama",
+        "0.27869081"
+      ],
+      [
+        "sister",
+        "0.236444"
+      ],
+      [
+        "romance",
+        "0.22710079"
+      ],
+      [
+        "daughter",
+        "0.21214254"
+      ],
+      [
+        "ends",
+        "0.20546195"
+      ],
+      [
+        "watched",
+        "0.20151736"
+      ],
+      [
+        "tv",
+        "0.19457154"
+      ]
+    ],
+    "4": [
+      [
+        "kimi",
+        "0.3215105"
+      ],
+      [
+        "koi",
+        "0.31182298"
+      ],
+      [
+        "chan",
+        "0.3096038"
+      ],
+      [
+        "akira",
+        "0.29363543"
+      ],
+      [
+        "hana",
+        "0.2870659"
+      ],
+      [
+        "ko",
+        "0.28340116"
+      ],
+      [
+        "kara",
+        "0.258521"
+      ],
+      [
+        "ai",
+        "0.2519666"
+      ],
+      [
+        "teaser",
+        "0.23295934"
+      ],
+      [
+        "mahou",
+        "0.22792974"
+      ]
+    ],
+    "5": [
+      [
+        "hindi",
+        "0.5113914"
+      ],
+      [
+        "ka",
+        "0.39977273"
+      ],
+      [
+        "idols",
+        "0.3495622"
+      ],
+      [
+        "ji",
+        "0.34167692"
+      ],
+      [
+        "sa",
+        "0.3294091"
+      ],
+      [
+        "idol",
+        "0.3264864"
+      ],
+      [
+        "lang",
+        "0.31326935"
+      ],
+      [
+        "ko",
+        "0.30718786"
+      ],
+      [
+        "ang",
+        "0.3048644"
+      ],
+      [
+        "na",
+        "0.28811955"
+      ]
+    ],
+    "6": [
+      [
+        "chinese drama",
+        "0.3958783"
+      ],
+      [
+        "airing",
+        "0.3872165"
+      ],
+      [
+        "actors",
+        "0.38130844"
+      ],
+      [
+        "iqiyi",
+        "0.3168564"
+      ],
+      [
+        "starring",
+        "0.28407142"
+      ],
+      [
+        "filming",
+        "0.24089618"
+      ],
+      [
+        "production team",
+        "0.2346072"
+      ],
+      [
+        "feng",
+        "0.22996224"
+      ],
+      [
+        "yang",
+        "0.22366902"
+      ],
+      [
+        "baidu",
+        "0.2215052"
+      ]
+    ],
+    "7": [
+      [
+        "chung",
+        "0.26572022"
+      ],
+      [
+        "asian cinema",
+        "0.2627681"
+      ],
+      [
+        "wong",
+        "0.25974038"
+      ],
+      [
+        "kingdoms",
+        "0.25630105"
+      ],
+      [
+        "favorite",
+        "0.23586152"
+      ],
+      [
+        "directors",
+        "0.22167857"
+      ],
+      [
+        "director",
+        "0.202872"
+      ],
+      [
+        "dragon",
+        "0.20251879"
+      ],
+      [
+        "wai",
+        "0.19418743"
+      ],
+      [
+        "best",
+        "0.18009588"
+      ]
+    ],
+    "8": [
+      [
+        "isekai",
+        "0.3678604"
+      ],
+      [
+        "naruto",
+        "0.3294206"
+      ],
+      [
+        "manga",
+        "0.28641185"
+      ],
+      [
+        "want watch",
+        "0.2746387"
+      ],
+      [
+        "anime",
+        "0.2644127"
+      ],
+      [
+        "anime like",
+        "0.25857747"
+      ],
+      [
+        "watched",
+        "0.24476741"
+      ],
+      [
+        "like anime",
+        "0.23287258"
+      ],
+      [
+        "saga",
+        "0.22856858"
+      ],
+      [
+        "seen",
+        "0.22152077"
+      ]
+    ],
+    "9": [
+      [
+        "dramas",
+        "0.4187787"
+      ],
+      [
+        "kdrama",
+        "0.33698246"
+      ],
+      [
+        "drama",
+        "0.30202064"
+      ],
+      [
+        "wanna watch",
+        "0.2984074"
+      ],
+      [
+        "kdramas",
+        "0.29805627"
+      ],
+      [
+        "want watch",
+        "0.29372972"
+      ],
+      [
+        "english subtitles",
+        "0.28275868"
+      ],
+      [
+        "subtitles",
+        "0.27981374"
+      ],
+      [
+        "wanted watch",
+        "0.27079916"
+      ],
+      [
+        "episodes",
+        "0.26803765"
+      ]
+    ],
+    "10": [
+      [
+        "chan",
+        "0.35786578"
+      ],
+      [
+        "isekai",
+        "0.3328375"
+      ],
+      [
+        "kun",
+        "0.28764957"
+      ],
+      [
+        "rewatch",
+        "0.25835305"
+      ],
+      [
+        "anime",
+        "0.2246522"
+      ],
+      [
+        "hero",
+        "0.21766675"
+      ],
+      [
+        "feud",
+        "0.21753044"
+      ],
+      [
+        "chainsaw man",
+        "0.21724246"
+      ],
+      [
+        "hinting",
+        "0.20182075"
+      ],
+      [
+        "spoilers",
+        "0.19989131"
+      ]
+    ],
+    "11": [
+      [
+        "hana",
+        "0.35771155"
+      ],
+      [
+        "hyun",
+        "0.3388825"
+      ],
+      [
+        "sakura",
+        "0.32671252"
+      ],
+      [
+        "ryu",
+        "0.3184793"
+      ],
+      [
+        "choreography",
+        "0.29728502"
+      ],
+      [
+        "diva",
+        "0.26698485"
+      ],
+      [
+        "kim",
+        "0.26112643"
+      ],
+      [
+        "hollywood",
+        "0.2337388"
+      ],
+      [
+        "scenes",
+        "0.223421"
+      ],
+      [
+        "awards",
+        "0.21192883"
+      ]
+    ],
+    "12": [
+      [
+        "rui",
+        "0.23724547"
+      ],
+      [
+        "quality",
+        "0.20948163"
+      ],
+      [
+        "debut",
+        "0.18364379"
+      ],
+      [
+        "haru",
+        "0.18218595"
+      ],
+      [
+        "wasn really",
+        "0.18172544"
+      ],
+      [
+        "visual",
+        "0.1639471"
+      ],
+      [
+        "wow",
+        "0.15783094"
+      ],
+      [
+        "eyes",
+        "0.15193565"
+      ],
+      [
+        "high quality",
+        "0.14675082"
+      ],
+      [
+        "angel",
+        "0.14524816"
+      ]
+    ],
+    "13": [
+      [
+        "kim",
+        "0.3488078"
+      ],
+      [
+        "saga",
+        "0.29987752"
+      ],
+      [
+        "lau",
+        "0.2854003"
+      ],
+      [
+        "lee",
+        "0.26322135"
+      ],
+      [
+        "jung",
+        "0.2543113"
+      ],
+      [
+        "jae",
+        "0.250592"
+      ],
+      [
+        "netflix",
+        "0.24679889"
+      ],
+      [
+        "prime video",
+        "0.24394575"
+      ],
+      [
+        "hye",
+        "0.23718597"
+      ],
+      [
+        "climax",
+        "0.23392461"
+      ]
+    ],
+    "14": [
+      [
+        "jang",
+        "0.3350194"
+      ],
+      [
+        "eun",
+        "0.29609165"
+      ],
+      [
+        "jung",
+        "0.2927649"
+      ],
+      [
+        "nam",
+        "0.27821913"
+      ],
+      [
+        "idol",
+        "0.27699292"
+      ],
+      [
+        "netflix",
+        "0.26186824"
+      ],
+      [
+        "choi",
+        "0.2598934"
+      ],
+      [
+        "shin",
+        "0.23873372"
+      ],
+      [
+        "jae",
+        "0.23276487"
+      ],
+      [
+        "coming soon",
+        "0.23271163"
+      ]
+    ],
+    "15": [
+      [
+        "pair",
+        "0.27072927"
+      ],
+      [
+        "shen",
+        "0.25292903"
+      ],
+      [
+        "zhou",
+        "0.24893437"
+      ],
+      [
+        "meet",
+        "0.23353188"
+      ],
+      [
+        "hk",
+        "0.20051642"
+      ],
+      [
+        "challenging",
+        "0.19544466"
+      ],
+      [
+        "unfortunately",
+        "0.19338018"
+      ],
+      [
+        "sooooo",
+        "0.18881355"
+      ],
+      [
+        "chou",
+        "0.18737543"
+      ],
+      [
+        "just saw",
+        "0.1869166"
+      ]
+    ],
+    "16": [
+      [
+        "feng",
+        "0.25391573"
+      ],
+      [
+        "episodes",
+        "0.20086437"
+      ],
+      [
+        "cdrama",
+        "0.19861528"
+      ],
+      [
+        "yao",
+        "0.19254144"
+      ],
+      [
+        "yi",
+        "0.1924402"
+      ],
+      [
+        "fated",
+        "0.1922984"
+      ],
+      [
+        "alliance",
+        "0.18613103"
+      ],
+      [
+        "xia",
+        "0.18554181"
+      ],
+      [
+        "fei",
+        "0.18225333"
+      ],
+      [
+        "xiao",
+        "0.17802005"
+      ]
+    ],
+    "17": [
+      [
+        "kyung",
+        "0.43534148"
+      ],
+      [
+        "kdrama",
+        "0.4140216"
+      ],
+      [
+        "actors actresses",
+        "0.38670048"
+      ],
+      [
+        "actresses",
+        "0.378268"
+      ],
+      [
+        "actors",
+        "0.37662253"
+      ],
+      [
+        "actor",
+        "0.361364"
+      ],
+      [
+        "actor actress",
+        "0.35713398"
+      ],
+      [
+        "actress",
+        "0.33537498"
+      ],
+      [
+        "ji",
+        "0.32673013"
+      ],
+      [
+        "acting",
+        "0.32517827"
+      ]
+    ],
+    "18": [
+      [
+        "sakura",
+        "0.39096987"
+      ],
+      [
+        "glimpse",
+        "0.30992323"
+      ],
+      [
+        "related",
+        "0.25049376"
+      ],
+      [
+        "haru",
+        "0.2501416"
+      ],
+      [
+        "chapter",
+        "0.2387787"
+      ],
+      [
+        "jade",
+        "0.21121152"
+      ],
+      [
+        "generation",
+        "0.20274992"
+      ],
+      [
+        "mob",
+        "0.19795293"
+      ],
+      [
+        "regret",
+        "0.19778906"
+      ],
+      [
+        "status",
+        "0.19607252"
+      ]
+    ],
+    "19": [
+      [
+        "main character",
+        "0.35579738"
+      ],
+      [
+        "anime",
+        "0.35498706"
+      ],
+      [
+        "scene",
+        "0.34338734"
+      ],
+      [
+        "anime like",
+        "0.31183675"
+      ],
+      [
+        "remember scene",
+        "0.27839372"
+      ],
+      [
+        "live action",
+        "0.24088539"
+      ],
+      [
+        "watched",
+        "0.23828298"
+      ],
+      [
+        "watched years",
+        "0.2220852"
+      ],
+      [
+        "dubbed",
+        "0.21835655"
+      ],
+      [
+        "protagonist",
+        "0.21154532"
+      ]
+    ]
+  },
+  "topic_counts": {
+    "0": 794,
+    "1": 638,
+    "2": 407,
+    "3": 321,
+    "4": 311,
+    "5": 284,
+    "6": 229,
+    "7": 215,
+    "8": 175,
+    "9": 152,
+    "10": 146,
+    "11": 121,
+    "12": 90,
+    "13": 45,
+    "14": 45,
+    "15": 44,
+    "16": 41,
+    "17": 39,
+    "18": 31,
+    "19": 31
+  },
+  "topic_subreddit_distribution": {
+    "0": {
+      "indiantellytalk": 377,
+      "bollywood": 373,
+      "AsianCinema": 27,
+      "anime": 7,
+      "kdramas": 5,
+      "kpop": 2,
+      "jpop": 2,
+      "cpop": 1
+    },
+    "1": {
+      "kdramas": 295,
+      "AsianDrama": 151,
+      "cdrama": 119,
+      "indiantellytalk": 24,
+      "anime": 21,
+      "bollywood": 12,
+      "AsianCinema": 12,
+      "kpop": 1,
+      "cpop": 1,
+      "jpop": 1,
+      "PPOPcommunity": 1
+    },
+    "2": {
+      "cpop": 330,
+      "jpop": 44,
+      "PPOPcommunity": 7,
+      "anime": 6,
+      "kpop": 5,
+      "kdramas": 5,
+      "cdrama": 3,
+      "AsianDrama": 3,
+      "AsianCinema": 3,
+      "indiantellytalk": 1
+    },
+    "3": {
+      "AsianDrama": 193,
+      "AsianCinema": 78,
+      "bollywood": 20,
+      "kdramas": 14,
+      "indiantellytalk": 6,
+      "cpop": 4,
+      "anime": 3,
+      "cdrama": 2,
+      "jpop": 1
+    },
+    "4": {
+      "jpop": 242,
+      "kpop": 40,
+      "indiantellytalk": 8,
+      "anime": 8,
+      "cpop": 6,
+      "PPOPcommunity": 3,
+      "AsianCinema": 3,
+      "AsianDrama": 1
+    },
+    "5": {
+      "PPOPcommunity": 256,
+      "jpop": 8,
+      "kpop": 6,
+      "indiantellytalk": 4,
+      "cpop": 3,
+      "kdramas": 2,
+      "bollywood": 1,
+      "cdrama": 1,
+      "anime": 1,
+      "AsianDrama": 1,
+      "AsianCinema": 1
+    },
+    "6": {
+      "cdrama": 186,
+      "AsianCinema": 17,
+      "cpop": 9,
+      "kpop": 7,
+      "kdramas": 3,
+      "AsianDrama": 3,
+      "indiantellytalk": 2,
+      "bollywood": 1,
+      "anime": 1
+    },
+    "7": {
+      "AsianCinema": 185,
+      "bollywood": 20,
+      "kdramas": 5,
+      "cpop": 2,
+      "anime": 2,
+      "AsianDrama": 1
+    },
+    "8": {
+      "anime": 170,
+      "AsianCinema": 3,
+      "indiantellytalk": 1,
+      "kdramas": 1
+    },
+    "9": {
+      "AsianDrama": 64,
+      "kdramas": 23,
+      "indiantellytalk": 21,
+      "anime": 10,
+      "bollywood": 9,
+      "AsianCinema": 8,
+      "cdrama": 6,
+      "cpop": 6,
+      "jpop": 4,
+      "PPOPcommunity": 1
+    },
+    "10": {
+      "anime": 123,
+      "kpop": 8,
+      "jpop": 7,
+      "indiantellytalk": 3,
+      "AsianCinema": 3,
+      "bollywood": 1,
+      "cpop": 1
+    },
+    "11": {
+      "kpop": 89,
+      "jpop": 20,
+      "PPOPcommunity": 5,
+      "cpop": 4,
+      "indiantellytalk": 2,
+      "anime": 1
+    },
+    "12": {
+      "kpop": 77,
+      "cpop": 5,
+      "jpop": 3,
+      "anime": 2,
+      "PPOPcommunity": 2,
+      "AsianCinema": 1
+    },
+    "13": {
+      "AsianCinema": 37,
+      "AsianDrama": 3,
+      "anime": 2,
+      "bollywood": 1,
+      "kdramas": 1,
+      "jpop": 1
+    },
+    "14": {
+      "kpop": 37,
+      "kdramas": 4,
+      "AsianDrama": 2,
+      "PPOPcommunity": 1,
+      "AsianCinema": 1
+    },
+    "15": {
+      "cpop": 37,
+      "jpop": 3,
+      "PPOPcommunity": 2,
+      "kpop": 1,
+      "AsianCinema": 1
+    },
+    "16": {
+      "cdrama": 32,
+      "kpop": 3,
+      "anime": 3,
+      "cpop": 1,
+      "PPOPcommunity": 1,
+      "AsianDrama": 1
+    },
+    "17": {
+      "kdramas": 29,
+      "AsianDrama": 4,
+      "indiantellytalk": 3,
+      "jpop": 3
+    },
+    "18": {
+      "PPOPcommunity": 26,
+      "kpop": 2,
+      "cpop": 1,
+      "anime": 1,
+      "AsianDrama": 1
+    },
+    "19": {
+      "anime": 28,
+      "AsianDrama": 2,
+      "jpop": 1
+    }
+  },
+  "total_posts": 5496,
+  "outlier_posts": "1337",
+  "num_topics": 20
+}

@@ -28,7 +28,7 @@ __version__ = "1.0.0"
 # Default configuration
 DEFAULT_CONFIG = {
     'posts_per_community': 1000,
-    'output_dir': 'data',
+    'output_dir': 'results/scraped_data',
     'rate_limits': {
         'reddit': 1.0,  # seconds between requests
         'bluesky': 0.5,

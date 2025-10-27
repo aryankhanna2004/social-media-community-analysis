@@ -50,8 +50,8 @@ async def main():
     parser.add_argument(
         "--output",
         type=str,
-        default="data",
-        help="Output directory (default: data)"
+        default="results/scraped_data",
+        help="Output directory (default: results/scraped_data)"
     )
 
     args = parser.parse_args()

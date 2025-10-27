@@ -32,20 +32,29 @@ This project analyzes social media communities to understand their topic distrib
 ```
 social-media-community-analysis/
 ├── README.md              # Project documentation
-├── GOALV1.md             # Detailed project requirements
 ├── LICENSE               # Project license
 ├── requirements.txt      # Python dependencies
 ├── run_scraper.py        # Main script to run data collection
-├── env-example.txt       # Environment variables template
 ├── .env                  # Reddit API credentials (auto-loaded)
 ├── scraping/             # Reddit data collection module
 │   ├── __init__.py      # Package initialization and configuration
 │   └── scraper.py       # Main scraping functionality
-├── test_env_simple.py   # Test credential loading
-└── data/                # Output directory (created during scraping)
-    ├── combined_data.json    # All collected posts
-    ├── data_summary.json     # Collection statistics
-    └── r_[subreddit].json    # Individual subreddit data
+├── topic_modelling/      # Topic modeling analysis module
+│   ├── topic_modeling.py # BERTopic analysis implementation
+│   └── results/          # Topic modeling output
+│       ├── topic_info.csv           # Topic metadata
+│       ├── topic_analysis.json      # Detailed analysis
+│       ├── posts_with_topics.csv    # Posts with topic assignments
+│       └── topic_representations.json # Topic word representations
+├── results/              # Analysis results directory
+│   ├── scraped_data/     # Scraped data output directory
+│   │   ├── combined_data.json    # All collected posts
+│   │   ├── data_summary.json     # Collection statistics
+│   │   └── r_[subreddit].json    # Individual subreddit data
+│   └── topic_modelling_output/  # Topic modeling results (legacy location)
+└── docs/                 # Additional documentation
+    ├── .env.example     # Environment variables template
+    └── GOALV1.md        # Detailed project requirements
 ```
 
 ## Getting Started
@@ -88,10 +97,9 @@ python run_scraper.py --output my_data
 
 ### Default Subreddits
 
-The scraper is configured to collect from 13 data science and AI-related subreddits:
-- MachineLearning, datascience, Python, statistics, ArtificialIntelligence
-- deeplearning, DataEngineering, rstats, computervision, NLP
-- bigdata, analytics, machinelearningmemes
+The scraper is configured to collect from 11 Asian entertainment and media communities:
+- indiantellytalk, bollywood, kpop, kdramas, cdrama, cpop
+- jpop, anime, PPOPcommunity, AsianDrama, AsianCinema
 
 ### Output Format
 
@@ -130,7 +138,7 @@ python test_env_simple.py
 
 ### 3. Run Data Collection
 ```bash
-# Collect from all 13 subreddits (500 posts each)
+# Collect from all 11 subreddits (500 posts each)
 python run_scraper.py
 
 # Or collect from first 3 subreddits only
@@ -141,16 +149,37 @@ python run_scraper.py --posts 200
 ```
 
 ### 4. Check Results
-After running, you'll find collected data in the `data/` folder:
+After running, you'll find collected data in the `results/scraped_data/` folder:
 - `combined_data.json` - All posts in one file
 - `data_summary.json` - Collection statistics
 - `r_[subreddit].json` - Individual subreddit data
 
-### 5. Proceed to Analysis
-Once you have the data, move to the next phase:
-- Apply BERTopic for topic modeling
-- Compute similarity matrices
-- Generate visualizations
+### 5. Run Topic Modeling
+Once you have the data, run the topic modeling analysis:
+
+```bash
+# Run complete topic modeling pipeline
+python topic_modelling/topic_modeling.py
+```
+
+This will:
+- Load posts from `results/scraped_data/combined_data.json`
+- Apply BERTopic modeling to extract topics
+- Analyze topic distributions across communities
+- Save results to `results/topic_modelling_output/`
+
+### 6. Check Analysis Results
+After topic modeling completes, find the results in `results/topic_modelling_output/`:
+- `topic_info.csv` - Topic metadata and statistics
+- `topic_analysis.json` - Detailed analysis including topic distributions
+- `posts_with_topics.csv` - All posts with assigned topics and probabilities
+- `topic_representations.json` - Top words for each topic
+
+### 7. Next Steps
+With the topic modeling complete, proceed to:
+- Compute cosine similarity matrices between communities
+- Apply K-means clustering to detect community groups
+- Generate visualizations (word clouds, 2D topic maps)
 
 ## Requirements
 

@@ -230,7 +230,7 @@ class RedditScraper(BaseScraper):
 class CommunityDataCollector:
     """Main class for collecting data from Reddit subreddits."""
 
-    def __init__(self, output_dir: str = "data"):
+    def __init__(self, output_dir: str = "results/scraped_data"):
         """
         Initialize the data collector.
 
@@ -312,13 +312,12 @@ class CommunityDataCollector:
 
 
 async def main():
-    """Example usage of the data collector."""
 
     # Import subreddits from configuration
     from . import SUBREDDITS as subreddits
 
     # Initialize collector
-    collector = CommunityDataCollector(output_dir="data")
+    collector = CommunityDataCollector(output_dir="results/scraped_data")
 
     # Collect data
     logger.info("Starting data collection...")
