@@ -1,90 +1,83 @@
 {
-  "total_subreddits": 12,
-  "total_posts": 5997,
+  "total_subreddits": 11,
+  "total_posts": 5500,
   "subreddit_stats": {
-    "MachineLearning": {
+    "indiantellytalk": {
       "total_posts": 500,
-      "date_range": "2025-08-11 23:10:51 - 2025-10-21 06:17:43",
-      "avg_score": 27.064,
-      "avg_comments": 19.134,
-      "avg_upvote_ratio": 0.7497
+      "date_range": "2025-10-04 11:14:57 - 2025-10-27 13:18:02",
+      "avg_score": 59.776,
+      "avg_comments": 19.284,
+      "avg_upvote_ratio": 0.91052
     },
-    "datascience": {
+    "bollywood": {
       "total_posts": 500,
-      "date_range": "2025-04-29 05:59:54 - 2025-10-21 08:54:24",
-      "avg_score": 126.878,
-      "avg_comments": 37.016,
-      "avg_upvote_ratio": 0.80998
+      "date_range": "2025-10-04 23:19:17 - 2025-10-27 12:55:32",
+      "avg_score": 179.416,
+      "avg_comments": 35.256,
+      "avg_upvote_ratio": 0.8657
     },
-    "Python": {
+    "kpop": {
       "total_posts": 500,
-      "date_range": "2025-09-12 01:27:44 - 2025-10-21 14:42:39",
-      "avg_score": 35.68,
-      "avg_comments": 15.024,
-      "avg_upvote_ratio": 0.66706
+      "date_range": "2025-10-23 02:12:09 - 2025-10-27 12:17:41",
+      "avg_score": 76.548,
+      "avg_comments": 5.758,
+      "avg_upvote_ratio": 0.84092
     },
-    "statistics": {
+    "kdramas": {
       "total_posts": 500,
-      "date_range": "2025-07-10 06:05:22 - 2025-10-21 14:49:28",
-      "avg_score": 10.578,
-      "avg_comments": 9.698,
-      "avg_upvote_ratio": 0.77932
+      "date_range": "2025-10-15 05:37:05 - 2025-10-27 13:00:22",
+      "avg_score": 67.24,
+      "avg_comments": 34.398,
+      "avg_upvote_ratio": 0.86586
     },
-    "deeplearning": {
+    "cdrama": {
       "total_posts": 500,
-      "date_range": "2025-09-02 23:41:27 - 2025-10-21 16:17:12",
-      "avg_score": 7.624,
-      "avg_comments": 3.59,
-      "avg_upvote_ratio": 0.72754
+      "date_range": "2025-09-19 19:24:14 - 2025-10-27 12:12:02",
+      "avg_score": 60.418,
+      "avg_comments": 45.664,
+      "avg_upvote_ratio": 0.94414
     },
-    "DataEngineering": {
+    "cpop": {
       "total_posts": 500,
-      "date_range": "2025-09-21 09:10:09 - 2025-10-21 16:41:05",
-      "avg_score": 41.61,
-      "avg_comments": 16.264,
-      "avg_upvote_ratio": 0.77418
+      "date_range": "2025-02-07 17:02:34 - 2025-10-27 12:16:12",
+      "avg_score": 5.55,
+      "avg_comments": 4.226,
+      "avg_upvote_ratio": 0.91276
     },
-    "rstats": {
+    "jpop": {
       "total_posts": 500,
-      "date_range": "2025-03-13 13:38:35 - 2025-10-21 08:57:16",
-      "avg_score": 15.884,
-      "avg_comments": 8.854,
-      "avg_upvote_ratio": 0.7667999999999999
+      "date_range": "2025-09-30 11:53:09 - 2025-10-27 11:01:38",
+      "avg_score": 4.328,
+      "avg_comments": 1.502,
+      "avg_upvote_ratio": 0.9341
     },
-    "computervision": {
+    "anime": {
       "total_posts": 500,
-      "date_range": "2025-09-11 23:25:10 - 2025-10-21 15:56:26",
-      "avg_score": 18.392,
-      "avg_comments": 6.258,
-      "avg_upvote_ratio": 0.79864
+      "date_range": "2025-10-21 16:24:49 - 2025-10-27 13:16:35",
+      "avg_score": 168.644,
+      "avg_comments": 49.376,
+      "avg_upvote_ratio": 0.5721799999999999
     },
-    "NLP": {
+    "PPOPcommunity": {
       "total_posts": 500,
-      "date_range": "2022-12-26 21:24:36 - 2025-10-21 01:23:46",
-      "avg_score": 5.084,
-      "avg_comments": 10.174,
-      "avg_upvote_ratio": 0.7998999999999999
+      "date_range": "2025-09-05 05:08:12 - 2025-10-27 08:15:55",
+      "avg_score": 71.132,
+      "avg_comments": 13.258,
+      "avg_upvote_ratio": 0.88342
     },
-    "bigdata": {
+    "AsianDrama": {
       "total_posts": 500,
-      "date_range": "2025-01-17 03:38:20 - 2025-10-21 07:35:05",
-      "avg_score": 1.874,
-      "avg_comments": 0.844,
-      "avg_upvote_ratio": 0.84006
+      "date_range": "2025-05-28 07:31:36 - 2025-10-27 11:55:59",
+      "avg_score": 6.034,
+      "avg_comments": 5.816,
+      "avg_upvote_ratio": 0.9245800000000001
     },
-    "analytics": {
+    "AsianCinema": {
       "total_posts": 500,
-      "date_range": "2025-08-15 08:58:54 - 2025-10-21 16:51:42",
-      "avg_score": 11.166,
-      "avg_comments": 11.054,
-      "avg_upvote_ratio": 0.75314
-    },
-    "machinelearningmemes": {
-      "total_posts": 497,
-      "date_range": "2019-03-05 03:43:40 - 2025-07-17 07:22:13",
-      "avg_score": 42.80482897384306,
-      "avg_comments": 1.460764587525151,
-      "avg_upvote_ratio": 0.9223138832997988
+      "date_range": "2025-01-22 20:07:20 - 2025-10-27 08:16:27",
+      "avg_score": 50.13,
+      "avg_comments": 9.324,
+      "avg_upvote_ratio": 0.92718
     }
   }
 }

@@ -37,21 +37,19 @@ DEFAULT_CONFIG = {
 }
 
 # Subreddit definitions
-# At least 10 subreddits as required by the project
+# Asian entertainment and media communities for social analysis
 SUBREDDITS: List[str] = [
-    'MachineLearning',
-    'datascience',
-    'Python',
-    'statistics',
-    'ArtificialIntelligence',
-    'deeplearning',
-    'DataEngineering',
-    'rstats',
-    'computervision',
-    'NLP',
-    'bigdata',
-    'analytics',
-    'machinelearningmemes'
+    'indiantellytalk',
+    'bollywood',
+    'kpop',
+    'kdramas',
+    'cdrama',
+    'cpop',
+    'jpop',
+    'anime',
+    'PPOPcommunity',
+    'AsianDrama',
+    'AsianCinema'
 ]
 
 # API credentials (set via environment variables)

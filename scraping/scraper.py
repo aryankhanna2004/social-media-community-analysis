@@ -314,22 +314,8 @@ class CommunityDataCollector:
 async def main():
     """Example usage of the data collector."""
 
-    # Define subreddits to scrape (at least 10 as required)
-    subreddits = [
-        'MachineLearning',
-        'datascience',
-        'Python',
-        'statistics',
-        'ArtificialIntelligence',
-        'deeplearning',
-        'DataEngineering',
-        'rstats',
-        'computervision',
-        'NLP',
-        'bigdata',
-        'analytics',
-        'machinelearningmemes'
-    ]
+    # Import subreddits from configuration
+    from . import SUBREDDITS as subreddits
 
     # Initialize collector
     collector = CommunityDataCollector(output_dir="data")
