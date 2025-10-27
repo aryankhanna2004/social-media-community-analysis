@@ -1,0 +1,83 @@
+{
+  "total_subreddits": 11,
+  "total_posts": 5500,
+  "subreddit_stats": {
+    "indiantellytalk": {
+      "total_posts": 500,
+      "date_range": "2025-10-04 11:14:57 - 2025-10-27 13:18:02",
+      "avg_score": 59.776,
+      "avg_comments": 19.284,
+      "avg_upvote_ratio": 0.91052
+    },
+    "bollywood": {
+      "total_posts": 500,
+      "date_range": "2025-10-04 23:19:17 - 2025-10-27 12:55:32",
+      "avg_score": 179.416,
+      "avg_comments": 35.256,
+      "avg_upvote_ratio": 0.8657
+    },
+    "kpop": {
+      "total_posts": 500,
+      "date_range": "2025-10-23 02:12:09 - 2025-10-27 12:17:41",
+      "avg_score": 76.548,
+      "avg_comments": 5.758,
+      "avg_upvote_ratio": 0.84092
+    },
+    "kdramas": {
+      "total_posts": 500,
+      "date_range": "2025-10-15 05:37:05 - 2025-10-27 13:00:22",
+      "avg_score": 67.24,
+      "avg_comments": 34.398,
+      "avg_upvote_ratio": 0.86586
+    },
+    "cdrama": {
+      "total_posts": 500,
+      "date_range": "2025-09-19 19:24:14 - 2025-10-27 12:12:02",
+      "avg_score": 60.418,
+      "avg_comments": 45.664,
+      "avg_upvote_ratio": 0.94414
+    },
+    "cpop": {
+      "total_posts": 500,
+      "date_range": "2025-02-07 17:02:34 - 2025-10-27 12:16:12",
+      "avg_score": 5.55,
+      "avg_comments": 4.226,
+      "avg_upvote_ratio": 0.91276
+    },
+    "jpop": {
+      "total_posts": 500,
+      "date_range": "2025-09-30 11:53:09 - 2025-10-27 11:01:38",
+      "avg_score": 4.328,
+      "avg_comments": 1.502,
+      "avg_upvote_ratio": 0.9341
+    },
+    "anime": {
+      "total_posts": 500,
+      "date_range": "2025-10-21 16:24:49 - 2025-10-27 13:16:35",
+      "avg_score": 168.644,
+      "avg_comments": 49.376,
+      "avg_upvote_ratio": 0.5721799999999999
+    },
+    "PPOPcommunity": {
+      "total_posts": 500,
+      "date_range": "2025-09-05 05:08:12 - 2025-10-27 08:15:55",
+      "avg_score": 71.132,
+      "avg_comments": 13.258,
+      "avg_upvote_ratio": 0.88342
+    },
+    "AsianDrama": {
+      "total_posts": 500,
+      "date_range": "2025-05-28 07:31:36 - 2025-10-27 11:55:59",
+      "avg_score": 6.034,
+      "avg_comments": 5.816,
+      "avg_upvote_ratio": 0.9245800000000001
+    },
+    "AsianCinema": {
+      "total_posts": 500,
+      "date_range": "2025-01-22 20:07:20 - 2025-10-27 08:16:27",
+      "avg_score": 50.13,
+      "avg_comments": 9.324,
+      "avg_upvote_ratio": 0.92718
+    }
+  }
+}
