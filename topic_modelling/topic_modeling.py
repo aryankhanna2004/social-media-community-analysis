@@ -152,20 +152,21 @@ class SocialMediaTopicModeler:
         """
         logger.info("Creating BERTopic model...")
 
-        # Configure embedding model
+        # Configure embedding model - same as Top2Vec for fair comparison
         embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-        # Configure vectorizer
+        # Configure vectorizer - more lenient to capture diverse topics
         vectorizer_model = CountVectorizer(
             stop_words="english",
-            min_df=5,
-            max_df=0.8,
+            min_df=3,  # Reduced from 5 to capture more specific topics
+            max_df=0.85,  # Slightly increased to keep more terms
             ngram_range=(1, 2)
         )
 
-        # Configure clustering model
+        # Configure clustering model - tuned for more granular topics
         hdbscan_model = HDBSCAN(
             min_cluster_size=min_topic_size,
+            min_samples=10,  # Added: helps create more stable clusters
             metric='euclidean',
             cluster_selection_method='eom',
             prediction_data=True
@@ -182,7 +183,8 @@ class SocialMediaTopicModeler:
             representation_model=representation_model,
             ctfidf_model=ClassTfidfTransformer(reduce_frequent_words=True),
             nr_topics=nr_topics,
-            verbose=True
+            verbose=True,
+            calculate_probabilities=True  # Added: better probability estimates
         )
 
         logger.info("BERTopic model created successfully")
@@ -310,8 +312,9 @@ class SocialMediaTopicModeler:
         self.load_data()
         texts = self.preprocess_text()
 
-        # Create and fit model
-        self.create_topic_model(min_topic_size=30, nr_topics=None)
+        # Create and fit model with optimized parameters
+        # Reduced min_topic_size to discover more granular topics
+        self.create_topic_model(min_topic_size=20, nr_topics=None)
         self.fit_model(texts)
 
         # Analyze results

@@ -12,7 +12,10 @@ This project analyzes social media communities to understand their topic distrib
 
 ## Features
 
-- **Topic Modeling**: Dual approach with Top2Vec and BERTopic for semantic topic extraction from social media posts
+- **Topic Modeling**: BERTopic-based semantic topic extraction optimized for social media posts
+  - Tuned HDBSCAN clustering for more granular topic discovery
+  - Enhanced probability estimation for better topic assignments
+  - Flexible vectorization to capture both specific and general topics
 - **Community Analysis**: Computes cosine similarity between communities based on topic distributions
 - **Clustering**: Applies K-means clustering to identify community groups
 - **Visualization**: Creates interactive visualizations including word clouds and 2D topic maps
@@ -41,13 +44,7 @@ social-media-community-analysis/
 │   ├── __init__.py      # Package initialization and configuration
 │   └── scraper.py       # Main scraping functionality
 ├── topic_modelling/      # Topic modeling analysis module
-│   ├── topic_modeling.py    # Top2Vec analysis implementation
-│   ├── bertopic_modeling.py # BERTopic analysis implementation (alternative approach)
-│   └── results/          # Topic modeling output
-│       ├── topic_info.csv           # Topic metadata
-│       ├── topic_analysis.json      # Detailed analysis
-│       ├── posts_with_topics.csv    # Posts with topic assignments
-│       └── topic_representations.json # Topic word representations (JSON-serialized)
+│   └── topic_modeling.py    # BERTopic analysis implementation
 ├── results/              # Analysis results directory
 │   ├── scraped_data/     # Scraped data output directory
 │   │   ├── combined_data.json    # All collected posts
@@ -55,8 +52,9 @@ social-media-community-analysis/
 │   │   └── r_[subreddit].json    # Individual subreddit data
 │   └── topic_modelling_output/  # Topic modeling results (legacy location)
 └── docs/                 # Additional documentation
-    ├── .env.example     # Environment variables template
-    └── GOALV1.md        # Detailed project requirements
+    ├── .env.example              # Environment variables template
+    ├── GOALV1.md                 # Detailed project requirements
+    └── BERTOPIC_CONFIGURATION.md # BERTopic model configuration details
 ```
 
 ## Getting Started
@@ -157,36 +155,32 @@ After running, you'll find collected data in the `results/scraped_data/` folder:
 - `r_[subreddit].json` - Individual subreddit data
 
 ### 5. Run Topic Modeling
-Once you have the data, run the topic modeling analysis. You can choose between two approaches:
+Once you have the data, run the BERTopic modeling analysis:
 
-**Option A: Top2Vec (Recommended for social media)**
 ```bash
-# Run Top2Vec topic modeling pipeline
+# Run BERTopic topic modeling pipeline
 python topic_modelling/topic_modeling.py
 ```
 
-**Option B: BERTopic (Transformer-based alternative)**
-```bash
-# Run BERTopic modeling pipeline
-python topic_modelling/bertopic_modeling.py
-```
-
-Both approaches will:
+The topic modeling pipeline will:
 - Load posts from `results/scraped_data/combined_data.json`
-- Apply advanced topic modeling to extract semantic topics
+- Apply BERTopic with optimized parameters for social media content
+- Extract semantic topics using transformer-based embeddings
 - Analyze topic distributions across communities
 - Save results with proper JSON serialization
 
-**Key Differences:**
-- **Top2Vec**: Uses Doc2Vec embeddings, better for discovering semantic topics in short social media posts
-- **BERTopic**: Uses transformer embeddings (BERT), provides more interpretable topics with better word representations
+**BERTopic Configuration:**
+- **Embedding Model**: all-MiniLM-L6-v2 for efficient semantic representations
+- **Clustering**: HDBSCAN with tuned parameters for granular topic discovery
+  - `min_cluster_size=30` for balanced topic granularity
+  - `min_samples=10` for stable cluster formation
+- **Vectorization**: Flexible CountVectorizer settings to capture diverse topics
+  - `min_df=3` to include more specific topics
+  - `max_df=0.85` to retain meaningful common terms
+- **Probability Estimation**: Enhanced calculation for better topic assignment confidence
 
 ### 6. Check Analysis Results
-After topic modeling completes, find the results in the output directory:
-- **Top2Vec results**: `results/topic_modelling_output/`
-- **BERTopic results**: `results/bertopic_output/`
-
-Each directory contains:
+After topic modeling completes, find the results in `results/topic_modelling_output/`:
 - `topic_info.csv` - Topic metadata and statistics
 - `topic_analysis.json` - Detailed analysis including topic distributions
 - `posts_with_topics.csv` - All posts with assigned topics and probabilities
@@ -201,8 +195,10 @@ With the topic modeling complete, proceed to:
 ## Requirements
 
 - Python 3.8+
-- Top2Vec library for topic modeling
-- Scikit-learn for clustering and similarity analysis
+- BERTopic library for topic modeling
+- Sentence Transformers for embeddings
+- HDBSCAN for clustering
+- Scikit-learn for similarity analysis
 - Pandas, NumPy for data processing
 - Visualization libraries (Matplotlib, Seaborn)
 
