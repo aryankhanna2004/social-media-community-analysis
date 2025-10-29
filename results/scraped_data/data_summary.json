@@ -1,83 +1,90 @@
 {
-  "total_subreddits": 11,
-  "total_posts": 5500,
+  "total_subreddits": 12,
+  "total_posts": 5572,
   "subreddit_stats": {
-    "indiantellytalk": {
+    "popheads": {
       "total_posts": 500,
-      "date_range": "2025-10-04 11:14:57 - 2025-10-27 13:18:02",
-      "avg_score": 59.776,
-      "avg_comments": 19.284,
-      "avg_upvote_ratio": 0.91052
+      "date_range": "2025-09-30 22:11:01 - 2025-10-28 10:00:50",
+      "avg_score": 157.972,
+      "avg_comments": 153.75,
+      "avg_upvote_ratio": 0.8981399999999999
     },
-    "bollywood": {
+    "EDM": {
       "total_posts": 500,
-      "date_range": "2025-10-04 23:19:17 - 2025-10-27 12:55:32",
-      "avg_score": 179.416,
-      "avg_comments": 35.256,
-      "avg_upvote_ratio": 0.8657
+      "date_range": "2025-10-04 08:20:23 - 2025-10-28 16:09:48",
+      "avg_score": 18.162,
+      "avg_comments": 14.274,
+      "avg_upvote_ratio": 0.77366
     },
-    "kpop": {
+    "trap": {
       "total_posts": 500,
-      "date_range": "2025-10-23 02:12:09 - 2025-10-27 12:17:41",
-      "avg_score": 76.548,
-      "avg_comments": 5.758,
-      "avg_upvote_ratio": 0.84092
-    },
-    "kdramas": {
-      "total_posts": 500,
-      "date_range": "2025-10-15 05:37:05 - 2025-10-27 13:00:22",
-      "avg_score": 67.24,
-      "avg_comments": 34.398,
-      "avg_upvote_ratio": 0.86586
-    },
-    "cdrama": {
-      "total_posts": 500,
-      "date_range": "2025-09-19 19:24:14 - 2025-10-27 12:12:02",
-      "avg_score": 60.418,
-      "avg_comments": 45.664,
-      "avg_upvote_ratio": 0.94414
-    },
-    "cpop": {
-      "total_posts": 500,
-      "date_range": "2025-02-07 17:02:34 - 2025-10-27 12:16:12",
-      "avg_score": 5.55,
-      "avg_comments": 4.226,
-      "avg_upvote_ratio": 0.91276
+      "date_range": "2025-07-15 09:48:26 - 2025-10-28 15:49:53",
+      "avg_score": 21.07,
+      "avg_comments": 5.636,
+      "avg_upvote_ratio": 0.8749199999999999
     },
     "jpop": {
       "total_posts": 500,
-      "date_range": "2025-09-30 11:53:09 - 2025-10-27 11:01:38",
-      "avg_score": 4.328,
-      "avg_comments": 1.502,
-      "avg_upvote_ratio": 0.9341
+      "date_range": "2025-09-07 21:17:16 - 2025-10-28 13:41:36",
+      "avg_score": 11.4,
+      "avg_comments": 6.906,
+      "avg_upvote_ratio": 0.88128
     },
-    "anime": {
-      "total_posts": 500,
-      "date_range": "2025-10-21 16:24:49 - 2025-10-27 13:16:35",
-      "avg_score": 168.644,
-      "avg_comments": 49.376,
-      "avg_upvote_ratio": 0.5721799999999999
+    "kpop": {
+      "total_posts": 72,
+      "date_range": "2025-10-22 02:10:02 - 2025-10-28 13:21:36",
+      "avg_score": 100.70833333333333,
+      "avg_comments": 6.416666666666667,
+      "avg_upvote_ratio": 0.8601388888888889
     },
-    "PPOPcommunity": {
+    "rock": {
       "total_posts": 500,
-      "date_range": "2025-09-05 05:08:12 - 2025-10-27 08:15:55",
-      "avg_score": 71.132,
-      "avg_comments": 13.258,
-      "avg_upvote_ratio": 0.88342
+      "date_range": "2025-08-02 19:27:13 - 2025-10-28 04:21:59",
+      "avg_score": 18.002,
+      "avg_comments": 13.18,
+      "avg_upvote_ratio": 0.79432
     },
-    "AsianDrama": {
+    "classicalmusic": {
       "total_posts": 500,
-      "date_range": "2025-05-28 07:31:36 - 2025-10-27 11:55:59",
-      "avg_score": 6.034,
-      "avg_comments": 5.816,
-      "avg_upvote_ratio": 0.9245800000000001
+      "date_range": "2025-10-05 15:53:26 - 2025-10-28 16:41:07",
+      "avg_score": 16.636,
+      "avg_comments": 18.326,
+      "avg_upvote_ratio": 0.62846
     },
-    "AsianCinema": {
+    "gamemusic": {
       "total_posts": 500,
-      "date_range": "2025-01-22 20:07:20 - 2025-10-27 08:16:27",
-      "avg_score": 50.13,
-      "avg_comments": 9.324,
-      "avg_upvote_ratio": 0.92718
+      "date_range": "2025-08-19 12:11:36 - 2025-10-28 09:24:46",
+      "avg_score": 4.44,
+      "avg_comments": 4.42,
+      "avg_upvote_ratio": 0.8166
+    },
+    "hiphop": {
+      "total_posts": 500,
+      "date_range": "2015-05-19 09:39:02 - 2025-10-27 18:40:06",
+      "avg_score": 1.732,
+      "avg_comments": 1.226,
+      "avg_upvote_ratio": 0.9178200000000001
+    },
+    "country": {
+      "total_posts": 500,
+      "date_range": "2024-02-23 13:34:01 - 2025-10-28 12:35:32",
+      "avg_score": 22.098,
+      "avg_comments": 25.668,
+      "avg_upvote_ratio": 0.84564
+    },
+    "funk": {
+      "total_posts": 500,
+      "date_range": "2025-06-07 09:06:22 - 2025-10-28 15:07:37",
+      "avg_score": 50.95,
+      "avg_comments": 14.722,
+      "avg_upvote_ratio": 0.93808
+    },
+    "folk": {
+      "total_posts": 500,
+      "date_range": "2025-06-11 12:43:13 - 2025-10-28 14:06:06",
+      "avg_score": 6.994,
+      "avg_comments": 4.25,
+      "avg_upvote_ratio": 0.92596
     }
   }
 }

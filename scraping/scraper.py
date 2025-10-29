@@ -154,15 +154,15 @@ class RedditScraper(BaseScraper):
     async def scrape_subreddit(self, subreddit_name: str, limit: int = 1000,
                              time_filter: str = 'month') -> List[Post]:
         """
-        Scrape posts from a subreddit.
+        Scrape posts from a subreddit, continuing until target limit is reached.
 
         Args:
             subreddit_name: Name of the subreddit (without r/)
-            limit: Maximum number of posts to collect
-            time_filter: Time filter ('hour', 'day', 'week', 'month', 'year', 'all')
+            limit: Target number of posts to collect with meaningful content
+            time_filter: Initial time filter ('hour', 'day', 'week', 'month', 'year', 'all')
 
         Returns:
-            List of Post objects
+            List of Post objects with meaningful content
         """
         await self._get_access_token()
 
@@ -171,59 +171,91 @@ class RedditScraper(BaseScraper):
             return []
 
         posts = []
-        after = None
+        total_processed = 0
+        filtered_out = 0
 
-        while len(posts) < limit:
-            params = {
-                'limit': min(100, limit - len(posts)),
-                't': time_filter
-            }
+        # Try different time filters if we don't get enough posts
+        time_filters = [time_filter, 'year', 'all']
 
-            if after:
-                params['after'] = after
+        for current_time_filter in time_filters:
+            logger.info(f"Trying time filter '{current_time_filter}' for r/{subreddit_name}")
+            after = None
 
-            headers = {
-                'Authorization': f'bearer {self.access_token}',
-                'User-Agent': self.user_agent
-            }
+            while len(posts) < limit:
+                # Request more posts to account for filtering
+                remaining_needed = limit - len(posts)
+                params = {
+                    'limit': min(100, max(remaining_needed * 2, 50)),  # Request more than needed to account for filtering
+                    't': current_time_filter
+                }
 
-            url = f'https://oauth.reddit.com/r/{subreddit_name}/hot'
-            data = await self._make_request(url, params=params, headers=headers)
+                if after:
+                    params['after'] = after
 
-            if not data or 'data' not in data:
+                headers = {
+                    'Authorization': f'bearer {self.access_token}',
+                    'User-Agent': self.user_agent
+                }
+
+                url = f'https://oauth.reddit.com/r/{subreddit_name}/hot'
+                data = await self._make_request(url, params=params, headers=headers)
+
+                if not data or 'data' not in data:
+                    break
+
+                batch_processed = 0
+                batch_filtered = 0
+
+                for post_data in data['data']['children']:
+                    post = post_data['data']
+                    total_processed += 1
+                    batch_processed += 1
+
+                    # Skip stickied posts and announcements
+                    if post.get('stickied', False):
+                        continue
+
+                    # Only include posts with meaningful content (not just titles)
+                    content = post.get('selftext', '').strip()
+                    if not content or len(content) < 25:  # Skip posts with no content or very short content
+                        filtered_out += 1
+                        batch_filtered += 1
+                        continue
+
+                    post_obj = Post(
+                        subreddit=subreddit_name,
+                        post_id=post['id'],
+                        title=post.get('title', ''),
+                        content=content,
+                        author=post.get('author', '[deleted]'),
+                        timestamp=datetime.fromtimestamp(post['created_utc']),
+                        url=f"https://reddit.com{post['permalink']}",
+                        score=post.get('score', 0),
+                        num_comments=post.get('num_comments', 0),
+                        upvote_ratio=post.get('upvote_ratio', 0),
+                        is_original_content=post.get('is_original_content', False)
+                    )
+
+                    posts.append(post_obj)
+
+                    # Stop if we've reached the limit
+                    if len(posts) >= limit:
+                        break
+
+                logger.debug(f"Batch from r/{subreddit_name}: processed {batch_processed}, filtered {batch_filtered}, collected {len(posts)} valid posts so far")
+
+                after = data['data'].get('after')
+                if not after or len(posts) >= limit:
+                    break
+
+                # Avoid rate limits
+                await asyncio.sleep(1)
+
+            # If we have enough posts, stop trying other time filters
+            if len(posts) >= limit:
                 break
 
-            for post_data in data['data']['children']:
-                post = post_data['data']
-
-                # Skip stickied posts and announcements
-                if post.get('stickied', False):
-                    continue
-
-                post_obj = Post(
-                    subreddit=subreddit_name,
-                    post_id=post['id'],
-                    title=post.get('title', ''),
-                    content=post.get('selftext', ''),
-                    author=post.get('author', '[deleted]'),
-                    timestamp=datetime.fromtimestamp(post['created_utc']),
-                    url=f"https://reddit.com{post['permalink']}",
-                    score=post.get('score', 0),
-                    num_comments=post.get('num_comments', 0),
-                    upvote_ratio=post.get('upvote_ratio', 0),
-                    is_original_content=post.get('is_original_content', False)
-                )
-
-                posts.append(post_obj)
-
-            after = data['data'].get('after')
-            if not after:
-                break
-
-            # Avoid rate limits
-            await asyncio.sleep(1)
-
-        logger.info(f"Collected {len(posts)} posts from r/{subreddit_name}")
+        logger.info(f"Collected {len(posts)} posts from r/{subreddit_name} (filtered {filtered_out} title-only posts from {total_processed} total processed)")
         return posts[:limit]
 
 

@@ -1,1051 +1,135 @@
 {
-  "topic_info": "    Topic  ...                                Representative_Docs\n0      -1  ...  [Yummy Yummy Yummy Episode 5-6 Discussion Post...\n1       0  ...  [Dhadak 2 Movie Review: A Beautiful Shell with...\n2       1  ...  [The Maid - can't get over how good this short...\n3       2  ...  [Mandarin Songs with Similar Titles, Part 3. C...\n4       3  ...  [Please help find the name of this series !!!....\n5       4  ...  [KIIRAS - 1st Single: BANG BANG! (Teaser Image...\n6       5  ...  [\"sorry, ALAMAT...\" Part 1 - Destino EP Video ...\n7       6  ...  [Silent Honor \u6c89\u9ed8\u7684\u8363\u8000 (An Ye Shen Hai \u6697\u591c\u6df1\u6d77) from...\n8       7  ...  [Movie of the Day: Dollhouse (2025) by Shinobu...\n9       8  ...  [New to anime (Especially Romantics). So I hav...\n10      9  ...  [Manto (2018) sourcing with English subtitles....\n11     10  ...  [Gachiakuta - Episode 16 discussion. *Gachiaku...\n12     11  ...  [NiziU - \u2661Emotion (Dance Practice Behind) (251...\n13     12  ...  [NTX - The 3rd Mini Album: PROTO TYPE (Concept...\n14     13  ...  [Atonement Trailer, Topakk Trailer, \u201cNice to N...\n15     14  ...  [ARVVY - 1st Digital Single: \ub108\ub9cc\uc758 \uc544\uc774\ub3cc\uc774 \ub420 \uac70\uc57c \u2665 (...\n16     15  ...  [Resaleing Zhou Shen NYC ticket for 3/9 if any...\n17     16  ...  [Fated Hearts Episodes 13 - 14 Discussion. **W...\n18     17  ...  [Which K-drama actors are known for having the...\n19     18  ...  [[MNL48 RELATED CONTENT] DURING THE MNL48 DREA...\n20     19  ...  [PLEASE help me find a very VERY niche anime.....\n\n[21 rows x 5 columns]",
+  "topic_info": "    Topic  ...                                     Representation\n0       0  ...  [orchestral, mozart, composers, concerto, orch...\n1       1  ...  [spotify, soundcloud, remix, remixes, soundtra...\n2       2  ...  [soundtracks, soundtrack, musical, melody, tun...\n3       3  ...  [funk, funkadelic, remixes, tunes, rap, songs,...\n4       4  ...  [remix, soundtrack, remixes, song, chorus, tap...\n..    ...  ...                                                ...\n57     57  ...  [tokyo, japanese, youtube, jpop, search, remix...\n58     58  ...  [idol, singers, singer, yukika, songstresses, ...\n59     59  ...  [spotify, concert, songs, singers, singer, rap...\n60     60  ...  [trap, discussion, threads, stories, discussed...\n61     61  ...  [song, songs, lyric, chorus, lyrics, singer, b...\n\n[62 rows x 4 columns]",
   "topic_representations": {
-    "0": [
-      [
-        "love story",
-        "0.3844932"
-      ],
-      [
-        "hai",
-        "0.36284155"
-      ],
-      [
-        "loved",
-        "0.3385477"
-      ],
-      [
-        "hindi",
-        "0.33181357"
-      ],
-      [
-        "feels",
-        "0.2680262"
-      ],
-      [
-        "ka",
-        "0.26161122"
-      ],
-      [
-        "cast",
-        "0.25843388"
-      ],
-      [
-        "underrated",
-        "0.25426424"
-      ],
-      [
-        "emotional",
-        "0.23953688"
-      ],
-      [
-        "felt",
-        "0.23917633"
-      ]
-    ],
-    "1": [
-      [
-        "kdrama",
-        "0.39554885"
-      ],
-      [
-        "kdramas",
-        "0.32165492"
-      ],
-      [
-        "dramas",
-        "0.32050878"
-      ],
-      [
-        "drama",
-        "0.25519305"
-      ],
-      [
-        "episode",
-        "0.24285832"
-      ],
-      [
-        "watched",
-        "0.23429714"
-      ],
-      [
-        "watch",
-        "0.233359"
-      ],
-      [
-        "shows",
-        "0.22914715"
-      ],
-      [
-        "acting",
-        "0.22696188"
-      ],
-      [
-        "ending",
-        "0.22688547"
-      ]
-    ],
-    "2": [
-      [
-        "liu",
-        "0.25904843"
-      ],
-      [
-        "lee",
-        "0.2573037"
-      ],
-      [
-        "huang",
-        "0.24977481"
-      ],
-      [
-        "zhou",
-        "0.22976027"
-      ],
-      [
-        "youtu",
-        "0.2223261"
-      ],
-      [
-        "notable",
-        "0.2189153"
-      ],
-      [
-        "yao",
-        "0.21472952"
-      ],
-      [
-        "wei",
-        "0.20934516"
-      ],
-      [
-        "2019",
-        "0.20690636"
-      ],
-      [
-        "wang",
-        "0.19684054"
-      ]
-    ],
-    "3": [
-      [
-        "drama watched",
-        "0.32509676"
-      ],
-      [
-        "drama",
-        "0.3176692"
-      ],
-      [
-        "main character",
-        "0.3097535"
-      ],
-      [
-        "chinese drama",
-        "0.27869081"
-      ],
-      [
-        "sister",
-        "0.236444"
-      ],
-      [
-        "romance",
-        "0.22710079"
-      ],
-      [
-        "daughter",
-        "0.21214254"
-      ],
-      [
-        "ends",
-        "0.20546195"
-      ],
-      [
-        "watched",
-        "0.20151736"
-      ],
-      [
-        "tv",
-        "0.19457154"
-      ]
-    ],
-    "4": [
-      [
-        "kimi",
-        "0.3215105"
-      ],
-      [
-        "koi",
-        "0.31182298"
-      ],
-      [
-        "chan",
-        "0.3096038"
-      ],
-      [
-        "akira",
-        "0.29363543"
-      ],
-      [
-        "hana",
-        "0.2870659"
-      ],
-      [
-        "ko",
-        "0.28340116"
-      ],
-      [
-        "kara",
-        "0.258521"
-      ],
-      [
-        "ai",
-        "0.2519666"
-      ],
-      [
-        "teaser",
-        "0.23295934"
-      ],
-      [
-        "mahou",
-        "0.22792974"
-      ]
-    ],
-    "5": [
-      [
-        "hindi",
-        "0.5113914"
-      ],
-      [
-        "ka",
-        "0.39977273"
-      ],
-      [
-        "idols",
-        "0.3495622"
-      ],
-      [
-        "ji",
-        "0.34167692"
-      ],
-      [
-        "sa",
-        "0.3294091"
-      ],
-      [
-        "idol",
-        "0.3264864"
-      ],
-      [
-        "lang",
-        "0.31326935"
-      ],
-      [
-        "ko",
-        "0.30718786"
-      ],
-      [
-        "ang",
-        "0.3048644"
-      ],
-      [
-        "na",
-        "0.28811955"
-      ]
-    ],
-    "6": [
-      [
-        "chinese drama",
-        "0.3958783"
-      ],
-      [
-        "airing",
-        "0.3872165"
-      ],
-      [
-        "actors",
-        "0.38130844"
-      ],
-      [
-        "iqiyi",
-        "0.3168564"
-      ],
-      [
-        "starring",
-        "0.28407142"
-      ],
-      [
-        "filming",
-        "0.24089618"
-      ],
-      [
-        "production team",
-        "0.2346072"
-      ],
-      [
-        "feng",
-        "0.22996224"
-      ],
-      [
-        "yang",
-        "0.22366902"
-      ],
-      [
-        "baidu",
-        "0.2215052"
-      ]
-    ],
-    "7": [
-      [
-        "chung",
-        "0.26572022"
-      ],
-      [
-        "asian cinema",
-        "0.2627681"
-      ],
-      [
-        "wong",
-        "0.25974038"
-      ],
-      [
-        "kingdoms",
-        "0.25630105"
-      ],
-      [
-        "favorite",
-        "0.23586152"
-      ],
-      [
-        "directors",
-        "0.22167857"
-      ],
-      [
-        "director",
-        "0.202872"
-      ],
-      [
-        "dragon",
-        "0.20251879"
-      ],
-      [
-        "wai",
-        "0.19418743"
-      ],
-      [
-        "best",
-        "0.18009588"
-      ]
-    ],
-    "8": [
-      [
-        "isekai",
-        "0.3678604"
-      ],
-      [
-        "naruto",
-        "0.3294206"
-      ],
-      [
-        "manga",
-        "0.28641185"
-      ],
-      [
-        "want watch",
-        "0.2746387"
-      ],
-      [
-        "anime",
-        "0.2644127"
-      ],
-      [
-        "anime like",
-        "0.25857747"
-      ],
-      [
-        "watched",
-        "0.24476741"
-      ],
-      [
-        "like anime",
-        "0.23287258"
-      ],
-      [
-        "saga",
-        "0.22856858"
-      ],
-      [
-        "seen",
-        "0.22152077"
-      ]
-    ],
-    "9": [
-      [
-        "dramas",
-        "0.4187787"
-      ],
-      [
-        "kdrama",
-        "0.33698246"
-      ],
-      [
-        "drama",
-        "0.30202064"
-      ],
-      [
-        "wanna watch",
-        "0.2984074"
-      ],
-      [
-        "kdramas",
-        "0.29805627"
-      ],
-      [
-        "want watch",
-        "0.29372972"
-      ],
-      [
-        "english subtitles",
-        "0.28275868"
-      ],
-      [
-        "subtitles",
-        "0.27981374"
-      ],
-      [
-        "wanted watch",
-        "0.27079916"
-      ],
-      [
-        "episodes",
-        "0.26803765"
-      ]
-    ],
-    "10": [
-      [
-        "chan",
-        "0.35786578"
-      ],
-      [
-        "isekai",
-        "0.3328375"
-      ],
-      [
-        "kun",
-        "0.28764957"
-      ],
-      [
-        "rewatch",
-        "0.25835305"
-      ],
-      [
-        "anime",
-        "0.2246522"
-      ],
-      [
-        "hero",
-        "0.21766675"
-      ],
-      [
-        "feud",
-        "0.21753044"
-      ],
-      [
-        "chainsaw man",
-        "0.21724246"
-      ],
-      [
-        "hinting",
-        "0.20182075"
-      ],
-      [
-        "spoilers",
-        "0.19989131"
-      ]
-    ],
-    "11": [
-      [
-        "hana",
-        "0.35771155"
-      ],
-      [
-        "hyun",
-        "0.3388825"
-      ],
-      [
-        "sakura",
-        "0.32671252"
-      ],
-      [
-        "ryu",
-        "0.3184793"
-      ],
-      [
-        "choreography",
-        "0.29728502"
-      ],
-      [
-        "diva",
-        "0.26698485"
-      ],
-      [
-        "kim",
-        "0.26112643"
-      ],
-      [
-        "hollywood",
-        "0.2337388"
-      ],
-      [
-        "scenes",
-        "0.223421"
-      ],
-      [
-        "awards",
-        "0.21192883"
-      ]
-    ],
-    "12": [
-      [
-        "rui",
-        "0.23724547"
-      ],
-      [
-        "quality",
-        "0.20948163"
-      ],
-      [
-        "debut",
-        "0.18364379"
-      ],
-      [
-        "haru",
-        "0.18218595"
-      ],
-      [
-        "wasn really",
-        "0.18172544"
-      ],
-      [
-        "visual",
-        "0.1639471"
-      ],
-      [
-        "wow",
-        "0.15783094"
-      ],
-      [
-        "eyes",
-        "0.15193565"
-      ],
-      [
-        "high quality",
-        "0.14675082"
-      ],
-      [
-        "angel",
-        "0.14524816"
-      ]
-    ],
-    "13": [
-      [
-        "kim",
-        "0.3488078"
-      ],
-      [
-        "saga",
-        "0.29987752"
-      ],
-      [
-        "lau",
-        "0.2854003"
-      ],
-      [
-        "lee",
-        "0.26322135"
-      ],
-      [
-        "jung",
-        "0.2543113"
-      ],
-      [
-        "jae",
-        "0.250592"
-      ],
-      [
-        "netflix",
-        "0.24679889"
-      ],
-      [
-        "prime video",
-        "0.24394575"
-      ],
-      [
-        "hye",
-        "0.23718597"
-      ],
-      [
-        "climax",
-        "0.23392461"
-      ]
-    ],
-    "14": [
-      [
-        "jang",
-        "0.3350194"
-      ],
-      [
-        "eun",
-        "0.29609165"
-      ],
-      [
-        "jung",
-        "0.2927649"
-      ],
-      [
-        "nam",
-        "0.27821913"
-      ],
-      [
-        "idol",
-        "0.27699292"
-      ],
-      [
-        "netflix",
-        "0.26186824"
-      ],
-      [
-        "choi",
-        "0.2598934"
-      ],
-      [
-        "shin",
-        "0.23873372"
-      ],
-      [
-        "jae",
-        "0.23276487"
-      ],
-      [
-        "coming soon",
-        "0.23271163"
-      ]
-    ],
-    "15": [
-      [
-        "pair",
-        "0.27072927"
-      ],
-      [
-        "shen",
-        "0.25292903"
-      ],
-      [
-        "zhou",
-        "0.24893437"
-      ],
-      [
-        "meet",
-        "0.23353188"
-      ],
-      [
-        "hk",
-        "0.20051642"
-      ],
-      [
-        "challenging",
-        "0.19544466"
-      ],
-      [
-        "unfortunately",
-        "0.19338018"
-      ],
-      [
-        "sooooo",
-        "0.18881355"
-      ],
-      [
-        "chou",
-        "0.18737543"
-      ],
-      [
-        "just saw",
-        "0.1869166"
-      ]
-    ],
-    "16": [
-      [
-        "feng",
-        "0.25391573"
-      ],
-      [
-        "episodes",
-        "0.20086437"
-      ],
-      [
-        "cdrama",
-        "0.19861528"
-      ],
-      [
-        "yao",
-        "0.19254144"
-      ],
-      [
-        "yi",
-        "0.1924402"
-      ],
-      [
-        "fated",
-        "0.1922984"
-      ],
-      [
-        "alliance",
-        "0.18613103"
-      ],
-      [
-        "xia",
-        "0.18554181"
-      ],
-      [
-        "fei",
-        "0.18225333"
-      ],
-      [
-        "xiao",
-        "0.17802005"
-      ]
-    ],
-    "17": [
-      [
-        "kyung",
-        "0.43534148"
-      ],
-      [
-        "kdrama",
-        "0.4140216"
-      ],
-      [
-        "actors actresses",
-        "0.38670048"
-      ],
-      [
-        "actresses",
-        "0.378268"
-      ],
-      [
-        "actors",
-        "0.37662253"
-      ],
-      [
-        "actor",
-        "0.361364"
-      ],
-      [
-        "actor actress",
-        "0.35713398"
-      ],
-      [
-        "actress",
-        "0.33537498"
-      ],
-      [
-        "ji",
-        "0.32673013"
-      ],
-      [
-        "acting",
-        "0.32517827"
-      ]
-    ],
-    "18": [
-      [
-        "sakura",
-        "0.39096987"
-      ],
-      [
-        "glimpse",
-        "0.30992323"
-      ],
-      [
-        "related",
-        "0.25049376"
-      ],
-      [
-        "haru",
-        "0.2501416"
-      ],
-      [
-        "chapter",
-        "0.2387787"
-      ],
-      [
-        "jade",
-        "0.21121152"
-      ],
-      [
-        "generation",
-        "0.20274992"
-      ],
-      [
-        "mob",
-        "0.19795293"
-      ],
-      [
-        "regret",
-        "0.19778906"
-      ],
-      [
-        "status",
-        "0.19607252"
-      ]
-    ],
-    "19": [
-      [
-        "main character",
-        "0.35579738"
-      ],
-      [
-        "anime",
-        "0.35498706"
-      ],
-      [
-        "scene",
-        "0.34338734"
-      ],
-      [
-        "anime like",
-        "0.31183675"
-      ],
-      [
-        "remember scene",
-        "0.27839372"
-      ],
-      [
-        "live action",
-        "0.24088539"
-      ],
-      [
-        "watched",
-        "0.23828298"
-      ],
-      [
-        "watched years",
-        "0.2220852"
-      ],
-      [
-        "dubbed",
-        "0.21835655"
-      ],
-      [
-        "protagonist",
-        "0.21154532"
-      ]
-    ]
+    "0": "['orchestral' 'mozart' 'composers' 'concerto' 'orchestra' 'composer'\n 'symphony' 'beethoven' 'soundtracks' 'musical' 'classical' 'piano'\n 'chopin' 'instrumental' 'bach' 'musicians' 'melodies' 'opera'\n 'instruments' 'violin' 'melody' 'melodic' 'music' 'cello' 'instrument'\n 'genres' 'soundtrack' 'flute' 'musician' 'ballad' 'concert' 'composed'\n 'performances' 'percussion' 'sax' 'artists' 'tunes' 'tapmusic' 'songs'\n 'classics' 'chorus' 'vocals' 'rhythm' 'tune' 'hendrix' 'playlist' 'synth'\n 'playlists' 'remix' 'artist']",
+    "1": "['spotify' 'soundcloud' 'remix' 'remixes' 'soundtrack' 'songs' 'tapmusic'\n 'song' 'vocals' 'tunes' 'album' 'melody' 'music' 'listened' 'chorus'\n 'instrumental' 'rap' 'tracks' 'ballad' 'bandcamp' 'melodic' 'soundtracks'\n 'albums' 'musical' 'tune' 'songwriter' 'rhythm' 'lyrics' 'lyric'\n 'concert' 'band' 'beats' 'playlist' 'symphony' 'bands' 'orchestral'\n 'sang' 'artist' 'listening' 'bass' 'songstresses' 'singer' 'intro'\n 'drums' 'playlists' 'singing' 'riff' 'genres' 'kpop' 'singers']",
+    "2": "['soundtracks' 'soundtrack' 'musical' 'melody' 'tunes' 'music'\n 'orchestral' 'playlist' 'symphony' 'melodic' 'remix' 'genres' 'songs'\n 'melodies' 'tapmusic' 'playlists' 'composer' 'instrumental' 'orchestra'\n 'soundcloud' 'spotify' 'remixes' 'ballad' 'synth' 'bandcamp' 'genre'\n 'rhythm' 'tune' 'intro' 'concerto' 'piano' 'composers' 'themes' 'vocals'\n 'chorus' 'song' 'studio' 'musicians' 'listened' 'synths' 'mozart' 'theme'\n 'techno' 'instruments' 'tracks' 'audio' 'indie' 'percussion' 'beethoven'\n 'rap']",
+    "3": "['funk' 'funkadelic' 'remixes' 'tunes' 'rap' 'songs' 'rhythm' 'albums'\n 'remix' 'soundtrack' 'melody' 'music' 'jam' 'beats' 'drums' 'soundcloud'\n 'genres' 'spotify' 'soundtracks' 'jazz' 'musical' 'hendrix' 'disco'\n 'album' 'bands' 'genre' 'bass' 'melodic' 'tapmusic' 'riff' 'dj' 'band'\n 'rock' 'tune' 'vocals' 'groove' 'concert' 'ballad' 'percussion' 'song'\n 'bandcamp' 'tracks' 'popheads' 'funky' 'artists' 'melodies' 'drum'\n 'lyric' 'techno' 'instrumental']",
+    "4": "['remix' 'soundtrack' 'remixes' 'song' 'chorus' 'tapmusic' 'lyric'\n 'melody' 'ballad' 'soundcloud' 'lyrics' 'instrumental' 'musical' 'vocals'\n 'concerto' 'songs' 'tune' 'riff' 'artist' 'intro' 'tunes' 'youtu' 'sang'\n 'soundtracks' 'symphony' 'bandcamp' 'music' 'album' 'rhythm' 'singer'\n 'spotify' 'playlist' 'listened' 'melodic' 'rap' 'recorded' 'tracks'\n 'orchestral' 'songwriter' 'feat' 'concert' 'composer' 'synth' 'video'\n 'youtube' 'techno' 'singing' 'kpop' 'link' 'dj']",
+    "5": "['songs' 'melody' 'ballad' 'melodic' 'tunes' 'remixes' 'soundtrack'\n 'soundcloud' 'song' 'rap' 'soundtracks' 'remix' 'chorus' 'music' 'genres'\n 'rhythm' 'tapmusic' 'musical' 'lyric' 'melodies' 'bandcamp' 'vocals'\n 'genre' 'tune' 'spotify' 'riff' 'symphony' 'instrumental' 'playlist'\n 'lyrics' 'classics' 'orchestral' 'album' 'playlists' 'albums' 'concerto'\n 'techno' 'listened' 'tracks' 'songstresses' 'disco' 'bands' 'singers'\n 'velvet' 'bass' 'songwriter' 'percussion' 'beats' 'artist' 'drums']",
+    "6": "['ballad' 'song' 'melody' 'songs' 'sang' 'soundtrack' 'songwriter'\n 'artist' 'chorus' 'lyric' 'singer' 'tunes' 'vocals' 'musical' 'music'\n 'lyrics' 'singing' 'riff' 'remixes' 'remix' 'rap' 'beethoven' 'classics'\n 'album' 'tapmusic' 'tune' 'symphony' 'bandcamp' 'singers' 'melodic'\n 'hendrix' 'albums' 'soundtracks' 'chopin' 'musician' 'listened'\n 'billboard' 'soundcloud' 'rhythm' 'concerto' 'intro' 'mozart' 'jam'\n 'velvet' 'bach' 'jazz' 'sax' 'sing' 'instrumental' 'melodies']",
+    "7": "['rap' 'remix' 'song' 'remixes' 'tapmusic' 'songs' 'soundtrack'\n 'songwriter' 'album' 'lyric' 'musical' 'soundcloud' 'lyrics' 'music'\n 'chorus' 'vocals' 'tracks' 'melody' 'tunes' 'intro' 'riff' 'ballad'\n 'rhythm' 'dj' 'studio' 'tune' 'techno' 'sang' 'melodic' 'artist' 'kpop'\n 'listened' 'singer' 'bandcamp' 'genre' 'albums' 'feat' 'upcoming'\n 'instrumental' 'concert' 'debut' 'singing' 'future' 'synth' 'spotify'\n 'soundtracks' 'youtu' 'featuring' 'recorded' 'billboard']",
+    "8": "['ballad' 'folk' 'songs' 'genres' 'tunes' 'genre' 'melodic' 'melody'\n 'musical' 'music' 'songwriter' 'melodies' 'musicians' 'chorus' 'tapmusic'\n 'song' 'singers' 'tune' 'rap' 'sang' 'artists' 'vocals' 'velvet'\n 'soundtrack' 'rhythm' 'soundtracks' 'musician' 'lyrics' 'lyric' 'artist'\n 'indie' 'bandcamp' 'soundcloud' 'classics' 'riff' 'singer' 'albums'\n 'singing' 'playlist' 'sing' 'composers' 'orchestral' 'instrumental'\n 'percussion' 'remixes' 'songstresses' 'guitar' 'drums' 'album'\n 'playlists']",
+    "9": "['musician' 'singer' 'hendrix' 'songwriter' 'singers' 'dj' 'famous'\n 'concert' 'musicians' 'him' 'albums' 'funk' 'album' 'songs' 'chris'\n 'artists' 'sang' 'tour' 'vocals' 'artist' 'music' 'sax' 'listened'\n 'jackson' 'composers' 'bandcamp' 'taylor' 'melodic' 'mozart' 'who'\n 'chopin' 'celebrity' 'johnny' 'tapmusic' 'guitar' 'tunes' 'performances'\n 'jam' 'boogie' 'rock' 'tune' 'rap' 'bass' 'underrated' 'funkadelic'\n 'band' 'his' 'ballad' 'song' 'guitars']",
+    "10": "['remixes' 'remix' 'spotify' 'tunes' 'songs' 'rap' 'soundtracks' 'beats'\n 'trap' 'vocals' 'tapmusic' 'soundcloud' 'instrumental' 'music' 'rhythm'\n 'playlist' 'soundtrack' 'tracks' 'melody' 'melodic' 'musical' 'playlists'\n 'bandcamp' 'tune' 'synth' 'genres' 'song' 'studio' 'artists' 'bass'\n 'synths' 'percussion' 'melodies' 'concert' 'drums' 'riff' 'album'\n 'albums' 'disco' 'ballad' 'listened' 'bands' 'genre' 'funk' 'chorus'\n 'orchestral' 'kpop' 'techno' 'dance' 'jam']",
+    "11": "['soundtrack' 'tapmusic' 'remix' 'remixes' 'album' 'tunes' 'melody'\n 'music' 'song' 'spotify' 'soundcloud' 'songs' 'soundtracks'\n 'instrumental' 'artist' 'albums' 'musical' 'orchestral' 'ballad'\n 'melodic' 'bandcamp' 'chorus' 'symphony' 'songwriter' 'vocals' 'apple'\n 'rap' 'cd' 'tracks' 'lyrics' 'playlist' 'tune' 'lyric' 'composer' 'band'\n 'kpop' 'intro' 'techno' 'concerto' 'mozart' 'sang' 'concert' 'theme'\n 'listened' 'singer' 'rhythm' 'sax' 'studio' 'bands' 'billboard']",
+    "12": "['tickets' 'ticket' 'concert' 'festival' 'promo' 'tour' 'going' 'lt' 'go'\n 'went' 'gonna' 'upcoming' 'pm' 'july' 'saturday' 'stage' 'tonight'\n 'bandcamp' 'interested' 'date' 'worth' 'awesome' 'sweet' 'wanted'\n 'lineup' 'free' 'order' 'tomorrow' 'friday' 'playlist' 'store' 'get'\n 'late' 'tokyo' 'chance' 'getting' 'coming' 'party' 'same' 'musical'\n 'tracks' 'august' 'weekend' 'park' 'birthday' 'performances' 'sales'\n 'keys' 'available' 'bring']",
+    "13": "['concert' 'bandcamp' 'bands' 'band' 'vocals' 'drums' 'soundcloud' 'tour'\n 'rock' 'musicians' 'percussion' 'hendrix' 'music' 'remixes' 'spotify'\n 'listened' 'album' 'bass' 'tapmusic' 'musical' 'remix' 'drum' 'albums'\n 'tracks' 'songs' 'melodic' 'tunes' 'instrumental' 'chorus' 'instruments'\n 'beats' 'disco' 'soundtrack' 'symphony' 'guitar' 'indie' 'orchestral'\n 'studio' 'genres' 'guitars' 'tune' 'musician' 'orchestra' 'singers'\n 'artists' 'kpop' 'stage' 'synth' 'soundtracks' 'sax']",
+    "14": "['soundtrack' 'remix' 'melody' 'musical' 'soundtracks' 'tapmusic'\n 'playlist' 'symphony' 'song' 'tunes' 'intro' 'ballad' 'instrumental'\n 'chorus' 'remixes' 'tune' 'orchestral' 'bandcamp' 'concerto' 'rhythm'\n 'riff' 'synth' 'music' 'soundcloud' 'techno' 'spotify' 'theme' 'lyric'\n 'playlists' 'composer' 'melodic' 'songs' 'game' 'kpop' 'artist' 'tracks'\n 'orchestra' 'genre' 'studio' 'demo' 'games' 'lyrics' 'jam' 'mozart'\n 'beethoven' 'vocals' 'version' 'audio' 'cd' 'album']",
+    "15": "['albums' 'album' 'cd' 'soundtrack' 'songs' 'remixes' 'concert' 'releases'\n 'vinyl' 'songwriter' 'tapmusic' 'remix' 'song' 'records' 'spotify'\n 'soundcloud' 'released' 'tracks' 'instrumental' 'vocals' 'tunes'\n 'recorded' 'bandcamp' 'soundtracks' 'playlist' 'lyrics' 'tour'\n 'playlists' 'artist' 'listened' 'versions' 'studio' 'edition' 'musical'\n 'drums' 'billboard' 'curated' 'music' 'ep' 'bands' 'discography'\n 'percussion' 'chorus' 'concerto' 'band' 'ballad' 'record' 'sax'\n 'recordings' 'lyric']",
+    "16": "['twitter' 'gossip' 'teatime' 'news' 'rumors' 'media' 'content'\n 'instagram' 'accusations' 'banned' 'celebrities' 'tea' 'nudity'\n 'celebrity' 'posts' 'trending' 'links' 'posting' 'lately' 'linked'\n 'discussed' 'rules' 'songstresses' 'discussion' 'articles' 'threads'\n 'nsfw' 'comments' 'reddit' 'fact' 'subreddit' 'info' 'what' 'promote'\n 'recent' 'acceptable' 'youtube' 'removed' 'rae' 'tiktok' 'mods' 'article'\n 'related' 'another' 'source' 'other' 'stories' 'why' 'shit' 'today']",
+    "17": "['songs' 'genres' 'singers' 'tunes' 'music' 'country' 'rap' 'genre'\n 'artists' 'musicians' 'albums' 'soundtracks' 'songwriter' 'jazz'\n 'musician' 'singer' 'tapmusic' 'musical' 'bandcamp' 'soundcloud'\n 'spotify' 'composers' 'ballad' 'bands' 'popheads' 'tune' 'vocals' 'rock'\n 'melody' 'songstresses' 'mozart' 'drums' 'rhythm' 'indie' 'soundtrack'\n 'song' 'radio' 'funk' 'classics' 'concert' 'melodic' 'listening' 'album'\n 'hendrix' 'dj' 'sang' 'singing' 'artist' 'remixes' 'bass']",
+    "18": "['chorus' 'song' 'lyric' 'ballad' 'soundtrack' 'lyrics' 'songs' 'remixes'\n 'melody' 'yukika' 'remix' 'tapmusic' 'vocals' 'sang' 'singer' 'musical'\n 'kpop' 'singing' 'japanese' 'soundcloud' 'melodic' 'artist' 'bandcamp'\n 'tunes' 'jpop' 'tune' 'music' 'concerto' 'album' 'youtu' 'singers'\n 'tokyo' 'rap' 'dance' 'listened' 'sing' 'soundtracks' 'songstresses'\n 'symphony' 'rhythm' 'riff' 'dancing' 'disco' 'anime' 'spotify'\n 'instrumental' 'orchestral' 'japan' 'intro' 'songwriter']",
+    "19": "['ballad' 'songs' 'melody' 'song' 'lyric' 'lyrics' 'tunes' 'sang'\n 'soundtrack' 'rap' 'classics' 'tune' 'riff' 'singer' 'songwriter' 'music'\n 'melodic' 'jazz' 'chorus' 'singing' 'country' 'musical' 'bandcamp'\n 'melodies' 'singers' 'rhythm' 'favorites' 'sing' 'genre' 'favorite'\n 'album' 'genres' 'jam' 'vocals' 'artist' 'tapmusic' 'soundtracks'\n 'velvet' 'soundcloud' 'albums' 'blues' 'listened' 'johnny' 'rock'\n 'mozart' 'remixes' 'bach' 'guitar' 'sax' 'songstresses']",
+    "20": "['soundtrack' 'musical' 'melody' 'remix' 'concerto' 'instrumental' 'music'\n 'lyric' 'orchestral' 'composer' 'song' 'soundtracks' 'chorus' 'artist'\n 'ballad' 'mozart' 'remixes' 'tapmusic' 'lyrics' 'symphony' 'beethoven'\n 'songs' 'tunes' 'melodic' 'composers' 'tune' 'opera' 'rap' 'techno'\n 'composed' 'bach' 'chopin' 'album' 'que' 'de' 'rhythm' 'soundcloud'\n 'songwriter' 'riff' 'si' 'vocals' 'intro' 'los' 'artists' 'sang'\n 'orchestra' 'feat' 'disco' 'performances' 'classical']",
+    "21": "['remixes' 'punk' 'concert' 'song' 'songs' 'bandcamp' 'band' 'chorus'\n 'album' 'sang' 'vocals' 'soundtrack' 'remix' 'albums' 'tunes' 'music'\n 'musical' 'lyric' 'techno' 'debut' 'lyrics' 'soundcloud' 'ballad' 'bands'\n 'disco' 'melody' 'rap' 'singer' 'sax' 'tapmusic' 'rock' 'tune' 'kpop'\n 'songwriter' 'ep' 'riff' 'dj' 'tracks' 'billboard' 'tour' 'genre'\n 'hendrix' 'spotify' 'fm' 'funk' 'drums' 'melodic' 'studio' 'singers' 'cd']",
+    "22": "['upcoming' 'future' 'tomorrow' 'gonna' 'birthday' 'next' 'forever'\n 'concert' 'september' 'soundtrack' 'year' 'july' 'album' 'releases' 'iii'\n 'soon' 'latest' 'ahead' 'musical' 'listened' 'titled' 'song' 'debut' 'lt'\n 'may' 'coming' 'put' 'techno' 'decade' 'incredible' 'beyond' 'along'\n 'thanks' 'tour' 'hope' 'awesome' 'release' 'yall' 'ep' 'melody'\n 'released' 'october' 'advance' 'number' 'born' 'final' 'nd' 'decided'\n 'oct' 'second']",
+    "23": "['singers' 'rap' 'genres' 'artists' 'songs' 'music' 'popheads' 'genre'\n 'songstresses' 'albums' 'melodies' 'musicians' 'celebrities' 'tunes'\n 'singer' 'indie' 'songwriter' 'musician' 'melodic' 'musical' 'madonna'\n 'funk' 'artist' 'bands' 'vocals' 'concert' 'celebrity' 'remixes' 'melody'\n 'lyric' 'singing' 'soundcloud' 'rock' 'pop' 'soundtracks' 'spotify'\n 'punk' 'song' 'album' 'kpop' 'ballad' 'band' 'composers' 'lyrics'\n 'rhythm' 'listeners' 'techno' 'tapmusic' 'sing' 'jazz']",
+    "24": "['popheads' 'songs' 'trending' 'pop' 'popheadsjukebox' 'music' 'genres'\n 'rap' 'kpop' 'spotify' 'remixes' 'singers' 'songstresses' 'soundcloud'\n 'gossip' 'genre' 'tapmusic' 'albums' 'lastfmtopalbums' 'teatime'\n 'playlists' 'popular' 'promote' 'topics' 'tunes' 'podcast' 'lately'\n 'concert' 'billboard' 'recent' 'listened' 'soundtracks' 'song' 'indie'\n 'artists' 'may' 'radio' 'weekend' 'upcoming' 'listeners' 'rhythm'\n 'recommendations' 'september' 'playlist' 'discussed' 'melodies' 'album'\n 'themes' 'remix' 'tomorrow']",
+    "25": "['kpop' 'songs' 'genres' 'singers' 'tunes' 'soundtracks' 'genre' 'jpop'\n 'bands' 'spotify' 'music' 'remixes' 'artists' 'bandcamp' 'tapmusic'\n 'melodic' 'rap' 'recommendations' 'playlists' 'vocals' 'songstresses'\n 'popheads' 'japanese' 'soundcloud' 'playlist' 'melodies' 'disco' 'indie'\n 'musical' 'albums' 'melody' 'pop' 'band' 'suggestions' 'anime' 'remix'\n 'musicians' 'yukika' 'jam' 'soundtrack' 'rhythm' 'listened' 'orchestral'\n 'composers' 'chorus' 'favorites' 'sax' 'tokyo' 'singer' 'ballad']",
+    "26": "['lyric' 'ballad' 'lyrics' 'chorus' 'song' 'verse' 'melody' 'songwriter'\n 'melodic' 'songs' 'artist' 'sang' 'melodies' 'journey' 'album' 'singer'\n 'genre' 'soundtrack' 'riff' 'singing' 'sing' 'rhythm' 'soundcloud' 'tune'\n 'written' 'musical' 'music' 'listened' 'rap' 'vocals' 'tunes' 'soul'\n 'wrote' 'band' 'symphony' 'genres' 'bandcamp' 'songstresses' 'soulful'\n 'pain' 'velvet' 'musician' 'artists' 'singers' 'blues' 'albums' 'intro'\n 'vocal' 'tapmusic' 'hendrix']",
+    "27": "['songs' 'albums' 'music' 'rap' 'album' 'tunes' 'genres' 'song'\n 'soundtracks' 'songstresses' 'concert' 'singers' 'listening' 'playlists'\n 'soundcloud' 'genre' 'spotify' 'musical' 'soundtrack' 'upcoming'\n 'playlist' 'songwriter' 'listened' 'bands' 'bandcamp' 'releases'\n 'remixes' 'listeners' 'indie' 'tracks' 'classics' 'podcast' 'vocals'\n 'band' 'melody' 'musicians' 'tapmusic' 'september' 'artists' 'bass'\n 'lately' 'melodies' 'kpop' 'lyrics' 'billboard' 'radio' 'popheads'\n 'singer' 'listen' 'drums']",
+    "28": "['edm' 'genres' 'rap' 'artists' 'genre' 'songs' 'music' 'soundtracks'\n 'indie' 'studio' 'tunes' 'remixes' 'albums' 'musicians' 'musical'\n 'composers' 'vocals' 'bandcamp' 'singers' 'instrumental' 'melodic'\n 'remix' 'tapmusic' 'synths' 'concert' 'techno' 'disco' 'bands' 'dj'\n 'soundcloud' 'songstresses' 'rhythm' 'songwriter' 'melody' 'playlists'\n 'spotify' 'soundtrack' 'melodies' 'orchestral' 'synth' 'popheads'\n 'artist' 'composer' 'orchestra' 'tracks' 'drums' 'musician' 'classics'\n 'beats' 'rock']",
+    "29": "['album' 'songs' 'soundtrack' 'remix' 'albums' 'lyrics' 'remixes' 'song'\n 'vocals' 'songwriter' 'chorus' 'debut' 'ballad' 'concert' 'artist'\n 'tapmusic' 'singer' 'instrumental' 'intro' 'lyric' 'concerto' 'sang' 'ep'\n 'melody' 'tracks' 'musical' 'bandcamp' 'melodic' 'lee' 'listened'\n 'orchestral' 'cd' 'band' 'soundtracks' 'artists' 'singers' 'symphony'\n 'released' 'latest' 'releases' 'upcoming' 'percussion' 'titled' 'feat'\n 'bands' 'drums' 'music' 'composer' 'featuring' 'tour']",
+    "30": "['concert' 'musical' 'ballad' 'tour' 'sang' 'vocals' 'songwriter'\n 'singers' 'songs' 'musicians' 'singer' 'musician' 'performances' 'song'\n 'lyric' 'chorus' 'lyrics' 'bandcamp' 'melodic' 'album' 'melody' 'music'\n 'soundtrack' 'tune' 'lp' 'instrumental' 'albums' 'band' 'listened'\n 'rhythm' 'concerto' 'singing' 'tickets' 'festival' 'tracks' 'ep'\n 'remixes' 'orchestral' 'artists' 'tunes' 'idol' 'dj' 'artist' 'stage'\n 'hendrix' 'bands' 'velvet' 'melodies' 'lpr' 'tonight']",
+    "31": "['concert' 'tour' 'tickets' 'festival' 'debut' 'saturday' 'bandcamp'\n 'july' 'october' 'tonight' 'september' 'performances' 'ticket' 'august'\n 'shows' 'upcoming' 'tomorrow' 'stage' 'ep' 'sunday' 'hours' 'around'\n 'november' 'date' 'london' 'month' 'weekend' 'oct' 'may' 'lineup'\n 'months' 'concerto' 'friday' 'weeks' 'hour' 'tracks' 'during' 'weekly'\n 'york' 'week' 'days' 'angeles' 'awesome' 'late' 'band' 'night' 'bands'\n 'st' 'lt' 'musicians']",
+    "32": "['band' 'bandcamp' 'bands' 'vocals' 'album' 'chorus' 'songs' 'albums'\n 'rock' 'song' 'melodic' 'ballad' 'soundtrack' 'rap' 'melody' 'soundcloud'\n 'remixes' 'remix' 'genres' 'drums' 'music' 'symphony' 'lyric' 'concert'\n 'riff' 'spotify' 'percussion' 'genre' 'bass' 'tracks' 'tapmusic'\n 'songwriter' 'lyrics' 'indie' 'tunes' 'musical' 'orchestral' 'disco'\n 'instrumental' 'artist' 'sax' 'rhythm' 'hendrix' 'artists' 'tour' 'beats'\n 'velvet' 'singers' 'underground' 'musicians']",
+    "33": "['hendrix' 'bands' 'musicians' 'band' 'drums' 'concert' 'music' 'musician'\n 'albums' 'genres' 'guitars' 'rock' 'bandcamp' 'decade' 'musical'\n 'artists' 'singers' 'classics' 'guitar' 'genre' 'songs' 'popheads'\n 'percussion' 'tunes' 'beethoven' 'vocals' 'punk' 'indie' 'bass' 'rap'\n 'instruments' 'composers' 'funk' 'legacy' 'techno' 'beats' 'jazz'\n 'soundcloud' 'disco' 'tour' 'soundtracks' 'orchestra' 'drum'\n 'songstresses' 'mozart' 'sang' 'older' 'songwriter' 'era' 'sax']",
+    "34": "['ballad' 'lyric' 'song' 'lyrics' 'chorus' 'sang' 'melody' 'songs'\n 'soundtrack' 'singer' 'riff' 'songwriter' 'tune' 'artist' 'singing'\n 'tunes' 'musical' 'bandcamp' 'sing' 'soundcloud' 'melodic' 'rap' 'vocals'\n 'country' 'velvet' 'verse' 'rhythm' 'classics' 'music' 'tapmusic'\n 'singers' 'billboard' 'remixes' 'jazz' 'genre' 'album' 'remix' 'concerto'\n 'soundtracks' 'youtu' 'herbie' 'musician' 'listened' 'jam' 'intro'\n 'johnny' 'symphony' 'techno' 'bach' 'mozart']",
+    "35": "['festival' 'concert' 'tour' 'bandcamp' 'party' 'tickets' 'dancing'\n 'disco' 'places' 'york' 'park' 'bands' 'halloween' 'dance' 'orchestra'\n 'music' 'activities' 'place' 'musical' 'genres' 'tokyo' 'performances'\n 'tracks' 'musicians' 'weekend' 'studio' 'city' 'london' 'summer' 'events'\n 'genre' 'shows' 'indie' 'rap' 'suggestions' 'going' 'rhythm' 'spotify'\n 'orchestral' 'angeles' 'dj' 'anywhere' 'tunes' 'recommendations' 'songs'\n 'band' 'stage' 'club' 'soundtracks' 'singles']",
+    "36": "['remixes' 'soundcloud' 'remix' 'tapmusic' 'soundtrack' 'spotify' 'tunes'\n 'grime' 'songs' 'soundtracks' 'playlist' 'song' 'vocals' 'listened'\n 'playlists' 'album' 'tune' 'instrumental' 'cd' 'released' 'musical'\n 'tracks' 'recorded' 'music' 'concert' 'ballad' 'albums' 'beats' 'studio'\n 'bandcamp' 'funk' 'melody' 'rap' 'podcast' 'songwriter' 'synth' 'riff'\n 'releases' 'lyrics' 'drums' 'sang' 'jam' 'lyric' 'versions' 'audio'\n 'kpop' 'percussion' 'orchestral' 'chorus' 'rhythm']",
+    "37": "['soundtrack' 'songwriter' 'musical' 'songs' 'music' 'rap' 'chorus'\n 'remix' 'albums' 'vocals' 'album' 'song' 'instrumental' 'drums' 'remixes'\n 'melody' 'soundcloud' 'tapmusic' 'musician' 'genres' 'tunes' 'genre'\n 'percussion' 'lyric' 'rock' 'artist' 'ballad' 'bandcamp' 'soundtracks'\n 'riff' 'melodic' 'techno' 'tune' 'singer' 'drum' 'hendrix' 'band'\n 'listened' 'concert' 'lyrics' 'guitar' 'artists' 'orchestral' 'bass'\n 'musicians' 'bands' 'singers' 'sax' 'beats' 'concerto']",
+    "38": "['taylor' 'lyric' 'songs' 'rap' 'singer' 'song' 'singers' 'remixes'\n 'album' 'songstresses' 'idol' 'albums' 'swift' 'concert' 'showgirl'\n 'lyrics' 'chorus' 'ballad' 'songwriter' 'indie' 'remix' 'spotify'\n 'melody' 'melodies' 'musical' 'melodic' 'popheads' 'soundcloud' 'madonna'\n 'genre' 'vocals' 'classics' 'listened' 'billboard' 'kpop' 'genres'\n 'singing' 'celebrity' 'soundtrack' 'artist' 'soundtracks' 'sang' 'music'\n 'tapmusic' 'queen' 'her' 'underrated' 'tunes' 'girl' 'sabrina']",
+    "39": "['yukika' 'dinduks' 'orchestral' 'melodic' 'synth' 'bandcamp' 'tapmusic'\n 'anime' 'chopin' 'vocals' 'japanese' 'composer' 'disco' 'kpop' 'symphony'\n 'singer' 'velvet' 'beethoven' 'synths' 'musical' 'band' 'soundtrack'\n 'melody' 'ballad' 'concerto' 'chorus' 'orchestra' 'euroclub' 'concert'\n 'remix' 'techno' 'remixes' 'instrumental' 'singers' 'music' 'songwriter'\n 'mozart' 'german' 'composers' 'violin' 'flute' 'rhythm' 'solo' 'listened'\n 'genre' 'auhdacoee' 'idol' 'sang' 'funkadelic' 'cello']",
+    "40": "['spotify' 'remixes' 'songs' 'remix' 'concert' 'listened' 'tracks' 'tunes'\n 'playlist' 'soundcloud' 'music' 'vocals' 'tapmusic' 'beats' 'chorus'\n 'playlists' 'song' 'rap' 'instrumental' 'rhythm' 'musical' 'melody'\n 'bands' 'tune' 'soundtrack' 'album' 'bandcamp' 'band' 'melodic'\n 'recorded' 'lyrics' 'soundtracks' 'disco' 'songstresses' 'ballad'\n 'listen' 'trap' 'singers' 'thanks' 'sang' 'artists' 'albums' 'links'\n 'drums' 'weeklyhot' 'listening' 'lyric' 'featuring' 'riff' 'lt']",
+    "41": "['hendrix' 'musician' 'guitar' 'guitars' 'musicians' 'dj' 'songwriter'\n 'funk' 'drums' 'jam' 'percussion' 'chopin' 'boogie' 'concert' 'rock'\n 'singer' 'funkadelic' 'sax' 'melodic' 'bass' 'music' 'sang' 'musical'\n 'riff' 'jazz' 'acoustic' 'jackson' 'drum' 'piano' 'vocals' 'albums'\n 'ballad' 'instrument' 'instruments' 'rhythm' 'band' 'johnny' 'bands'\n 'singers' 'blues' 'mozart' 'bandcamp' 'songs' 'rick' 'paul' 'genres'\n 'tune' 'famous' 'beethoven' 'billy']",
+    "42": "['songs' 'music' 'tunes' 'rate' 'spotify' 'tune' 'song' 'musical' 'rap'\n 'playlist' 'soundcloud' 'concert' 'listened' 'playlists' 'vocals'\n 'chorus' 'albums' 'melody' 'tapmusic' 'album' 'ballad' 'remixes' 'lyrics'\n 'soundtrack' 'listening' 'soundtracks' 'songstresses' 'melodic' 'rhythm'\n 'bass' 'rock' 'genres' 'radio' 'beats' 'amp' 'performances' 'scores'\n 'remix' 'lyric' 'funk' 'bands' 'fm' 'popheads' 'listeners' 'feedback'\n 'tracks' 'singers' 'melodies' 'billboard' 'band']",
+    "43": "['albums' 'album' 'singer' 'songs' 'artist' 'songwriter' 'soundtrack'\n 'chorus' 'singers' 'melody' 'madonna' 'song' 'songstresses' 'artists'\n 'lyric' 'concerto' 'spotify' 'music' 'vocals' 'remixes' 'remix' 'mozart'\n 'lyrics' 'concert' 'indie' 'queen' 'musical' 'tapmusic' 'tunes' 'studio'\n 'instrumental' 'sang' 'ep' 'soundtracks' 'debut' 'ballad' 'janet'\n 'melodic' 'herbie' 'rap' 'idol' 'composer' 'intro' 'composers' 'musician'\n 'velvet' 'rhythm' 'anniversary' 'genre' 'charli']",
+    "44": "['songs' 'remixes' 'chorus' 'remix' 'listened' 'soundtrack' 'concerto'\n 'ballad' 'melody' 'album' 'song' 'melodic' 'lyrics' 'thanks' 'favorites'\n 'musical' 'lt' 'concert' 'thank' 'lyric' 'tapmusic' 'soundtracks'\n 'albums' 'vocals' 'music' 'ep' 'favourite' 'loved' 'intro' 'recorded'\n 'songwriter' 'weeklyhot' 'songstresses' 'artist' 'jpop' 'tracks' 'sang'\n 'tunes' 'yukika' 'beautiful' 'spotify' 'favorite' 'rhythm' 'instrumental'\n 'soundcloud' 'tune' 'latest' 'performances' 'playlist' 'amazing']",
+    "45": "['japanese' 'singers' 'japan' 'tokyo' 'yukika' 'jpop' 'singer' 'kpop'\n 'vocals' 'idol' 'concert' 'songstresses' 'singing' 'anime' 'artists'\n 'sing' 'songs' 'songwriter' 'madonna' 'popheads' 'musical' 'band'\n 'musicians' 'sang' 'vocal' 'popular' 'bandcamp' 'music' 'performances'\n 'chorus' 'albums' 'debut' 'kim' 'bands' 'disco' 'album' 'tapmusic'\n 'remixes' 'spotify' 'celebrities' 'musician' 'famous' 'orchestral'\n 'melodic' 'stage' 'singles' 'tour' 'celebrity' 'soundtracks' 'artist']",
+    "46": "['releases' 'albums' 'upcoming' 'release' 'album' 'versions' 'released'\n 'releasing' 'latest' 'september' 'debut' 'songs' 'anniversary' 'edition'\n 'concert' 'october' 'reviews' 'billboard' 'oct' 'cd' 'spotify' 'august'\n 'updates' 'recent' 'version' 'remixes' 'rumors' 'soundtrack'\n 'soundtracks' 'tomorrow' 'genres' 'tour' 'recently' 'month' 'bands'\n 'bandcamp' 'tunes' 'vinyl' 'date' 'july' 'ep' 'indie' 'rap' 'soon'\n 'remix' 'tracks' 'studio' 'discography' 'decade' 'future']",
+    "47": "['halloween' 'grime' 'punk' 'upcoming' 'october' 'kpop' 'remixes' 'remix'\n 'releases' 'concert' 'velvet' 'festival' 'oct' 'soundtrack' 'november'\n 'vinyl' 'indie' 'rl' 'ballad' 'rap' 'friday' 'promo' 'genre' 'music'\n 'songs' 'musical' 'tunes' 'september' 'release' 'popheadsjukebox' 'album'\n 'birthday' 'disco' 'party' 'weekend' 'raw' 'debut' 'funky' 'bandcamp'\n 'synth' 'ep' 'studio' 'playlist' 'latest' 'spotify' 'cd' 'pop' 'bands'\n 'soundtracks' 'rock']",
+    "48": "['songs' 'soundtracks' 'spotify' 'jpop' 'remixes' 'kpop' 'tunes'\n 'playlists' 'japanese' 'tapmusic' 'albums' 'singers' 'tokyo' 'music'\n 'remix' 'songstresses' 'playlist' 'soundtrack' 'genres' 'vocals'\n 'concert' 'bandcamp' 'soundcloud' 'song' 'album' 'japan' 'tracks'\n 'yukika' 'artists' 'releases' 'songwriter' 'musical' 'youtube' 'cd'\n 'anime' 'popheads' 'lyrics' 'singer' 'orchestral' 'singing' 'rap'\n 'instrumental' 'indie' 'composers' 'listened' 'bands' 'composer'\n 'concerto' 'pop' 'billboard']",
+    "49": "['spotify' 'artists' 'songwriter' 'remixes' 'soundcloud' 'songstresses'\n 'tapmusic' 'songs' 'tunes' 'singers' 'artist' 'albums' 'rap' 'singer'\n 'music' 'soundtracks' 'remix' 'indie' 'album' 'playlists' 'vocals'\n 'melody' 'beats' 'composers' 'studio' 'genres' 'song' 'kpop' 'soundtrack'\n 'billboard' 'melodies' 'musical' 'musicians' 'musician' 'tracks' 'lyrics'\n 'funk' 'producer' 'playlist' 'composer' 'funkadelic' 'synth' 'rhythm'\n 'listened' 'mozart' 'popheads' 'synths' 'madonna' 'melodic' 'lyric']",
+    "50": "['songs' 'singers' 'genres' 'soundtracks' 'yukika' 'songstresses' 'albums'\n 'tunes' 'melody' 'music' 'song' 'melodies' 'songwriter' 'melodic'\n 'singer' 'spotify' 'artists' 'rap' 'ballad' 'genre' 'tapmusic' 'japanese'\n 'musical' 'anime' 'vocals' 'listened' 'playlists' 'chorus' 'tokyo' 'kpop'\n 'soundcloud' 'lyric' 'soundtrack' 'idol' 'playlist' 'album' 'classics'\n 'singing' 'remixes' 'beethoven' 'sang' 'japan' 'indie' 'composers'\n 'mozart' 'lyrics' 'bach' 'disco' 'sing' 'favorites']",
+    "51": "['lyric' 'chorus' 'ballad' 'melody' 'artist' 'tapmusic' 'song' 'vocals'\n 'melodic' 'lyrics' 'singer' 'concerto' 'remix' 'songs' 'songwriter'\n 'musical' 'composer' 'instrumental' 'sang' 'remixes' 'orchestral'\n 'mozart' 'olak' 'album' 'yukika' 'singing' 'melodies' 'soundtrack'\n 'artists' 'listened' 'symphony' 'soundcloud' 'singers' 'tune' 'anime'\n 'composers' 'sing' 'beethoven' 'billboard' 'feat' 'japanese'\n 'soundtracks' 'albums' 'music' 'opera' 'bach' 'chopin' 'flute' 'kpop'\n 'playlist']",
+    "52": "['folk' 'songwriter' 'songs' 'ballad' 'listened' 'sang' 'chorus' 'singers'\n 'lyrics' 'hendrix' 'melodic' 'artists' 'musicians' 'dj' 'artist'\n 'musical' 'singer' 'tune' 'music' 'albums' 'tunes' 'album' 'recorded'\n 'song' 'musician' 'melody' 'vocals' 'songstresses' 'concert' 'favorites'\n 'rhythm' 'melodies' 'genres' 'genre' 'lyric' 'remixes' 'thoughts' 'riff'\n 'rap' 'billboard' 'heard' 'drums' 'appreciated' 'discography'\n 'percussion' 'tapmusic' 'singing' 'listen' 'disco' 'thanks']",
+    "53": "['song' 'lyric' 'soundtrack' 'chorus' 'lyrics' 'youtu' 'songs' 'musical'\n 'tapmusic' 'riff' 'melody' 'soundcloud' 'rap' 'ballad' 'symphony' 'music'\n 'listened' 'melodic' 'bandcamp' 'album' 'tune' 'feat' 'songwriter' 'band'\n 'genre' 'remix' 'soundtracks' 'sang' 'punk' 'orchestral' 'billboard'\n 'remixes' 'intro' 'political' 'movie' 'popheads' 'war' 'heard' 'singer'\n 'singing' 'theme' 'vocals' 'concerto' 'melodies' 'tunes' 'techno'\n 'artist' 'themes' 'video' 'vocal']",
+    "54": "['playlists' 'playlist' 'recommendations' 'genres' 'music' 'songs'\n 'soundtracks' 'spotify' 'artists' 'musicians' 'soundcloud' 'tunes'\n 'suggestions' 'musical' 'genre' 'songstresses' 'singers' 'musician'\n 'composers' 'mozart' 'listening' 'listen' 'melodies' 'listened' 'melody'\n 'soundtrack' 'curated' 'rap' 'recommend' 'indie' 'albums' 'melodic'\n 'bands' 'tapmusic' 'ideas' 'reviews' 'listeners' 'favorites' 'name'\n 'bandcamp' 'concert' 'vocals' 'composer' 'topics' 'songwriter' 'artist'\n 'list' 'chorus' 'particular' 'podcast']",
+    "55": "['soundtracks' 'soundtrack' 'spotify' 'rhythm' 'tunes' 'melody' 'remix'\n 'music' 'songs' 'remixes' 'musical' 'tapmusic' 'symphony' 'playlist'\n 'tracks' 'genres' 'soundcloud' 'playlists' 'instrumental' 'melodic'\n 'orchestral' 'intro' 'ballad' 'bandcamp' 'song' 'tune' 'melodies' 'genre'\n 'themes' 'listened' 'pokemon' 'rap' 'synth' 'listening' 'theme' 'techno'\n 'podcast' 'dancing' 'orchestra' 'chorus' 'audio' 'dance' 'kpop' 'mozart'\n 'concerto' 'vocals' 'funkadelic' 'loona' 'beats' 'percussion']",
+    "56": "['albums' 'album' 'songs' 'concert' 'remixes' 'popheads' 'singers'\n 'spotify' 'artist' 'listened' 'chorus' 'favorites' 'songstresses'\n 'soundcloud' 'remix' 'vocals' 'singer' 'artists' 'songwriter' 'lyrics'\n 'bands' 'billboard' 'song' 'band' 'lt' 'beats' 'popheadsjukebox' 'melody'\n 'tunes' 'tapmusic' 'tracks' 'thank' 'thanks' 'melodic' 'indie' 'rap'\n 'links' 'pop' 'music' 'madonna' 'soundtrack' 'lyric' 'ep' 'sang' 'ballad'\n 'bandcamp' 'anniversary' 'tour' 'all' 'covers']",
+    "57": "['tokyo' 'japanese' 'youtube' 'jpop' 'search' 'remixes' 'links' 'yukika'\n 'need' 'stream' 'podcast' 'japan' 'anime' 'remix' 'com' 'below' 'channel'\n 'kpop' 'looking' 'link' 'discord' 'where' 'pm' 'streaming' 'sub' 'google'\n 'anywhere' 'recommendations' 'www' 'instagram' 'searching' 'concerto'\n 'available' 'online' 'nwetno' 'songs' 'soundtracks' 'kmwipbqe' 'dinduks'\n 'playlists' 'free' 'linked' 'hq' 'curated' 'lt' 'spotify' 'welcome' 'pod'\n 'playlist' 'find']",
+    "58": "['idol' 'singers' 'singer' 'yukika' 'songstresses' 'celebrities' 'artists'\n 'singing' 'sing' 'celebrity' 'madonna' 'vocal' 'vocals' 'anime' 'artist'\n 'songs' 'charli' 'popheads' 'famous' 'japanese' 'musicians' 'voice'\n 'prince' 'melodies' 'songwriter' 'kim' 'kpop' 'melodic' 'performances'\n 'bach' 'sang' 'taylor' 'musical' 'tokyo' 'chris' 'albums' 'fans' 'chorus'\n 'lyric' 'music' 'sabrina' 'musician' 'beethoven' 'japan' 'lyrics'\n 'dinduks' 'genres' 'iconic' 'song' 'culture']",
+    "59": "['spotify' 'concert' 'songs' 'singers' 'singer' 'rap' 'song' 'billboard'\n 'popheads' 'songstresses' 'kpop' 'tunes' 'vocals' 'listened' 'sang'\n 'soundtrack' 'playlists' 'playlist' 'charts' 'tracks' 'soundtracks'\n 'remixes' 'soundcloud' 'ballad' 'music' 'musical' 'remix' 'album'\n 'albums' 'lyrics' 'bandcamp' 'chorus' 'september' 'idol' 'singing'\n 'tapmusic' 'melody' 'beats' 'lyric' 'favorites' 'latest' 'sing' 'disco'\n 'songwriter' 'funk' 'featuring' 'lastfmtopalbums' 'october' 'tour'\n 'singles']",
+    "60": "['trap' 'discussion' 'threads' 'stories' 'discussed' 'topics' 'discuss'\n 'weeklyhot' 'thread' 'weekly' 'week' 'info' 'questions' 'gossip' 'rumors'\n 'lately' 'about' 'links' 'weeks' 'accusations' 'events' 'linked'\n 'comments' 'recently' 'banned' 'asked' 'posts' 'ask' 'talking' 'link'\n 'commented' 'subreddit' 'news' 'daily' 'talk' 'story' 'curious' 'hop'\n 'anything' 'wiki' 'ideas' 'anybody' 'meet' 'project' 'articles' 'sub'\n 'description' 'interested' 'interesting' 'suggestions']",
+    "61": "['song' 'songs' 'lyric' 'chorus' 'lyrics' 'singer' 'ballad' 'album'\n 'melody' 'madonna' 'vocals' 'singers' 'sang' 'songwriter' 'albums'\n 'songstresses' 'idol' 'soundtrack' 'artist' 'singing' 'melodic' 'remixes'\n 'rap' 'bandcamp' 'riff' 'velvet' 'music' 'remix' 'tunes' 'musical'\n 'listened' 'soundcloud' 'sing' 'classics' 'girl' 'tune' 'concerto'\n 'billboard' 'intro' 'genre' 'concert' 'kim' 'band' 'queen' 'bach'\n 'genres' 'ep' 'artists' 'symphony' 'sabrina']"
   },
   "topic_counts": {
-    "0": 794,
-    "1": 638,
-    "2": 407,
-    "3": 321,
-    "4": 311,
-    "5": 284,
-    "6": 229,
-    "7": 215,
-    "8": 175,
-    "9": 152,
-    "10": 146,
-    "11": 121,
-    "12": 90,
-    "13": 45,
-    "14": 45,
-    "15": 44,
-    "16": 41,
-    "17": 39,
-    "18": 31,
-    "19": 31
+    "0": 408,
+    "1": 381,
+    "2": 311,
+    "3": 295,
+    "4": 289,
+    "5": 217,
+    "6": 202,
+    "7": 191,
+    "8": 149,
+    "9": 149,
+    "10": 136,
+    "11": 124,
+    "12": 98,
+    "13": 91,
+    "14": 90,
+    "15": 90,
+    "16": 89,
+    "17": 86,
+    "18": 84,
+    "19": 81,
+    "20": 81,
+    "21": 79,
+    "22": 79,
+    "23": 77,
+    "24": 77,
+    "25": 74,
+    "26": 74,
+    "27": 68,
+    "28": 67,
+    "29": 64,
+    "30": 58,
+    "31": 56,
+    "32": 53,
+    "33": 51,
+    "34": 50,
+    "35": 49,
+    "36": 48,
+    "37": 48,
+    "38": 47,
+    "39": 46,
+    "40": 46,
+    "41": 45,
+    "42": 45,
+    "43": 43,
+    "44": 43,
+    "45": 41,
+    "46": 39,
+    "47": 37,
+    "48": 37,
+    "49": 37,
+    "50": 36,
+    "51": 35,
+    "52": 35,
+    "53": 33,
+    "54": 32,
+    "55": 29,
+    "56": 29,
+    "57": 26,
+    "58": 25,
+    "59": 25,
+    "60": 24,
+    "61": 23
   },
-  "topic_subreddit_distribution": {
-    "0": {
-      "indiantellytalk": 377,
-      "bollywood": 373,
-      "AsianCinema": 27,
-      "anime": 7,
-      "kdramas": 5,
-      "kpop": 2,
-      "jpop": 2,
-      "cpop": 1
-    },
-    "1": {
-      "kdramas": 295,
-      "AsianDrama": 151,
-      "cdrama": 119,
-      "indiantellytalk": 24,
-      "anime": 21,
-      "bollywood": 12,
-      "AsianCinema": 12,
-      "kpop": 1,
-      "cpop": 1,
-      "jpop": 1,
-      "PPOPcommunity": 1
-    },
-    "2": {
-      "cpop": 330,
-      "jpop": 44,
-      "PPOPcommunity": 7,
-      "anime": 6,
-      "kpop": 5,
-      "kdramas": 5,
-      "cdrama": 3,
-      "AsianDrama": 3,
-      "AsianCinema": 3,
-      "indiantellytalk": 1
-    },
-    "3": {
-      "AsianDrama": 193,
-      "AsianCinema": 78,
-      "bollywood": 20,
-      "kdramas": 14,
-      "indiantellytalk": 6,
-      "cpop": 4,
-      "anime": 3,
-      "cdrama": 2,
-      "jpop": 1
-    },
-    "4": {
-      "jpop": 242,
-      "kpop": 40,
-      "indiantellytalk": 8,
-      "anime": 8,
-      "cpop": 6,
-      "PPOPcommunity": 3,
-      "AsianCinema": 3,
-      "AsianDrama": 1
-    },
-    "5": {
-      "PPOPcommunity": 256,
-      "jpop": 8,
-      "kpop": 6,
-      "indiantellytalk": 4,
-      "cpop": 3,
-      "kdramas": 2,
-      "bollywood": 1,
-      "cdrama": 1,
-      "anime": 1,
-      "AsianDrama": 1,
-      "AsianCinema": 1
-    },
-    "6": {
-      "cdrama": 186,
-      "AsianCinema": 17,
-      "cpop": 9,
-      "kpop": 7,
-      "kdramas": 3,
-      "AsianDrama": 3,
-      "indiantellytalk": 2,
-      "bollywood": 1,
-      "anime": 1
-    },
-    "7": {
-      "AsianCinema": 185,
-      "bollywood": 20,
-      "kdramas": 5,
-      "cpop": 2,
-      "anime": 2,
-      "AsianDrama": 1
-    },
-    "8": {
-      "anime": 170,
-      "AsianCinema": 3,
-      "indiantellytalk": 1,
-      "kdramas": 1
-    },
-    "9": {
-      "AsianDrama": 64,
-      "kdramas": 23,
-      "indiantellytalk": 21,
-      "anime": 10,
-      "bollywood": 9,
-      "AsianCinema": 8,
-      "cdrama": 6,
-      "cpop": 6,
-      "jpop": 4,
-      "PPOPcommunity": 1
-    },
-    "10": {
-      "anime": 123,
-      "kpop": 8,
-      "jpop": 7,
-      "indiantellytalk": 3,
-      "AsianCinema": 3,
-      "bollywood": 1,
-      "cpop": 1
-    },
-    "11": {
-      "kpop": 89,
-      "jpop": 20,
-      "PPOPcommunity": 5,
-      "cpop": 4,
-      "indiantellytalk": 2,
-      "anime": 1
-    },
-    "12": {
-      "kpop": 77,
-      "cpop": 5,
-      "jpop": 3,
-      "anime": 2,
-      "PPOPcommunity": 2,
-      "AsianCinema": 1
-    },
-    "13": {
-      "AsianCinema": 37,
-      "AsianDrama": 3,
-      "anime": 2,
-      "bollywood": 1,
-      "kdramas": 1,
-      "jpop": 1
-    },
-    "14": {
-      "kpop": 37,
-      "kdramas": 4,
-      "AsianDrama": 2,
-      "PPOPcommunity": 1,
-      "AsianCinema": 1
-    },
-    "15": {
-      "cpop": 37,
-      "jpop": 3,
-      "PPOPcommunity": 2,
-      "kpop": 1,
-      "AsianCinema": 1
-    },
-    "16": {
-      "cdrama": 32,
-      "kpop": 3,
-      "anime": 3,
-      "cpop": 1,
-      "PPOPcommunity": 1,
-      "AsianDrama": 1
-    },
-    "17": {
-      "kdramas": 29,
-      "AsianDrama": 4,
-      "indiantellytalk": 3,
-      "jpop": 3
-    },
-    "18": {
-      "PPOPcommunity": 26,
-      "kpop": 2,
-      "cpop": 1,
-      "anime": 1,
-      "AsianDrama": 1
-    },
-    "19": {
-      "anime": 28,
-      "AsianDrama": 2,
-      "jpop": 1
-    }
-  },
-  "total_posts": 5496,
-  "outlier_posts": "1337",
-  "num_topics": 20
+  "total_posts": 5572,
+  "outlier_posts": 1231,
+  "assigned_posts": 4341,
+  "num_topics": 62
 }

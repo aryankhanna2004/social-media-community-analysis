@@ -37,19 +37,20 @@ DEFAULT_CONFIG = {
 }
 
 # Subreddit definitions
-# Asian entertainment and media communities for social analysis
+# Music communities for social analysis
 SUBREDDITS: List[str] = [
-    'indiantellytalk',
-    'bollywood',
-    'kpop',
-    'kdramas',
-    'cdrama',
-    'cpop',
+    'popheads',
+    'EDM',
+    'trap',
     'jpop',
-    'anime',
-    'PPOPcommunity',
-    'AsianDrama',
-    'AsianCinema'
+    'kpop',
+    'rock',
+    'classicalmusic',
+    'gamemusic',
+    'hiphop',
+    'country',
+    'funk',
+    'folk'
 ]
 
 # API credentials (set via environment variables)

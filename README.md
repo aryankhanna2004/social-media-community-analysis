@@ -12,11 +12,12 @@ This project analyzes social media communities to understand their topic distrib
 
 ## Features
 
-- **Topic Modeling**: Uses BERTopic library for automatic topic extraction from social media posts
+- **Topic Modeling**: Dual approach with Top2Vec and BERTopic for semantic topic extraction from social media posts
 - **Community Analysis**: Computes cosine similarity between communities based on topic distributions
 - **Clustering**: Applies K-means clustering to identify community groups
 - **Visualization**: Creates interactive visualizations including word clouds and 2D topic maps
 - **Similarity Matrix**: Builds asymmetric matrices showing shared topic fractions
+- **Robust Data Export**: Properly handles numpy array serialization to JSON format
 
 ## Methodology
 
@@ -40,12 +41,13 @@ social-media-community-analysis/
 │   ├── __init__.py      # Package initialization and configuration
 │   └── scraper.py       # Main scraping functionality
 ├── topic_modelling/      # Topic modeling analysis module
-│   ├── topic_modeling.py # BERTopic analysis implementation
+│   ├── topic_modeling.py    # Top2Vec analysis implementation
+│   ├── bertopic_modeling.py # BERTopic analysis implementation (alternative approach)
 │   └── results/          # Topic modeling output
 │       ├── topic_info.csv           # Topic metadata
 │       ├── topic_analysis.json      # Detailed analysis
 │       ├── posts_with_topics.csv    # Posts with topic assignments
-│       └── topic_representations.json # Topic word representations
+│       └── topic_representations.json # Topic word representations (JSON-serialized)
 ├── results/              # Analysis results directory
 │   ├── scraped_data/     # Scraped data output directory
 │   │   ├── combined_data.json    # All collected posts
@@ -155,25 +157,40 @@ After running, you'll find collected data in the `results/scraped_data/` folder:
 - `r_[subreddit].json` - Individual subreddit data
 
 ### 5. Run Topic Modeling
-Once you have the data, run the topic modeling analysis:
+Once you have the data, run the topic modeling analysis. You can choose between two approaches:
 
+**Option A: Top2Vec (Recommended for social media)**
 ```bash
-# Run complete topic modeling pipeline
+# Run Top2Vec topic modeling pipeline
 python topic_modelling/topic_modeling.py
 ```
 
-This will:
+**Option B: BERTopic (Transformer-based alternative)**
+```bash
+# Run BERTopic modeling pipeline
+python topic_modelling/bertopic_modeling.py
+```
+
+Both approaches will:
 - Load posts from `results/scraped_data/combined_data.json`
-- Apply BERTopic modeling to extract topics
+- Apply advanced topic modeling to extract semantic topics
 - Analyze topic distributions across communities
-- Save results to `results/topic_modelling_output/`
+- Save results with proper JSON serialization
+
+**Key Differences:**
+- **Top2Vec**: Uses Doc2Vec embeddings, better for discovering semantic topics in short social media posts
+- **BERTopic**: Uses transformer embeddings (BERT), provides more interpretable topics with better word representations
 
 ### 6. Check Analysis Results
-After topic modeling completes, find the results in `results/topic_modelling_output/`:
+After topic modeling completes, find the results in the output directory:
+- **Top2Vec results**: `results/topic_modelling_output/`
+- **BERTopic results**: `results/bertopic_output/`
+
+Each directory contains:
 - `topic_info.csv` - Topic metadata and statistics
 - `topic_analysis.json` - Detailed analysis including topic distributions
 - `posts_with_topics.csv` - All posts with assigned topics and probabilities
-- `topic_representations.json` - Top words for each topic
+- `topic_representations.json` - Top words for each topic (properly serialized from numpy arrays)
 
 ### 7. Next Steps
 With the topic modeling complete, proceed to:
@@ -184,10 +201,12 @@ With the topic modeling complete, proceed to:
 ## Requirements
 
 - Python 3.8+
-- BERTopic library
-- Scikit-learn
-- Pandas, NumPy
+- Top2Vec library for topic modeling
+- Scikit-learn for clustering and similarity analysis
+- Pandas, NumPy for data processing
 - Visualization libraries (Matplotlib, Seaborn)
+
+See `requirements.txt` for complete dependency list.
 
 ## License
 
