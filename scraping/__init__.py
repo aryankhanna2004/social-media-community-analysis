@@ -28,7 +28,7 @@ __version__ = "1.0.0"
 # Default configuration
 DEFAULT_CONFIG = {
     'posts_per_community': 1000,
-    'output_dir': 'data',
+    'output_dir': 'results/scraped_data',
     'rate_limits': {
         'reddit': 1.0,  # seconds between requests
         'bluesky': 0.5,
@@ -37,19 +37,20 @@ DEFAULT_CONFIG = {
 }
 
 # Subreddit definitions
-# Asian entertainment and media communities for social analysis
+# Music communities for social analysis
 SUBREDDITS: List[str] = [
-    'indiantellytalk',
-    'bollywood',
-    'kpop',
-    'kdramas',
-    'cdrama',
-    'cpop',
+    'popheads',
+    'EDM',
+    'trap',
     'jpop',
-    'anime',
-    'PPOPcommunity',
-    'AsianDrama',
-    'AsianCinema'
+    'kpop',
+    'rock',
+    'classicalmusic',
+    'gamemusic',
+    'hiphop',
+    'country',
+    'funk',
+    'folk'
 ]
 
 # API credentials (set via environment variables)

@@ -1,32 +1,12 @@
-# Core ML and Data Processing
+# Core dependencies for topic modeling
 bertopic>=0.15.0
-scikit-learn>=1.3.0
 numpy>=1.24.0
-
-# Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-wordcloud>=1.9.0
-plotly>=5.15.0
-
-# Text Processing
-transformers>=4.30.0
+pandas>=1.5.0
+scikit-learn>=1.3.0
 sentence-transformers>=2.2.0
-nltk>=3.8.0
-
-# Reddit API Access
-aiohttp>=3.8.0
-requests>=2.31.0
-praw>=7.7.0  # Reddit API wrapper
-
-# Utilities
 tqdm>=4.65.0
-jupyter>=1.0.0
-ipykernel>=6.23.0
-python-dotenv>=1.0.0  # Environment variables
+top2vec>=1.0.34
 
-# Development and Testing
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
-black>=23.0.0  # Code formatting
-flake8>=6.0.0  # Linting
+# Data collection (scraping) dependencies
+aiohttp>=3.8.0
+python-dotenv>=1.0.0

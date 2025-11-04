@@ -12,11 +12,15 @@ This project analyzes social media communities to understand their topic distrib
 
 ## Features
 
-- **Topic Modeling**: Uses BERTopic library for automatic topic extraction from social media posts
+- **Topic Modeling**: BERTopic-based semantic topic extraction optimized for social media posts
+  - Tuned HDBSCAN clustering for more granular topic discovery
+  - Enhanced probability estimation for better topic assignments
+  - Flexible vectorization to capture both specific and general topics
 - **Community Analysis**: Computes cosine similarity between communities based on topic distributions
 - **Clustering**: Applies K-means clustering to identify community groups
 - **Visualization**: Creates interactive visualizations including word clouds and 2D topic maps
 - **Similarity Matrix**: Builds asymmetric matrices showing shared topic fractions
+- **Robust Data Export**: Properly handles numpy array serialization to JSON format
 
 ## Methodology
 
@@ -32,20 +36,25 @@ This project analyzes social media communities to understand their topic distrib
 ```
 social-media-community-analysis/
 ├── README.md              # Project documentation
-├── GOALV1.md             # Detailed project requirements
 ├── LICENSE               # Project license
 ├── requirements.txt      # Python dependencies
 ├── run_scraper.py        # Main script to run data collection
-├── env-example.txt       # Environment variables template
 ├── .env                  # Reddit API credentials (auto-loaded)
 ├── scraping/             # Reddit data collection module
 │   ├── __init__.py      # Package initialization and configuration
 │   └── scraper.py       # Main scraping functionality
-├── test_env_simple.py   # Test credential loading
-└── data/                # Output directory (created during scraping)
-    ├── combined_data.json    # All collected posts
-    ├── data_summary.json     # Collection statistics
-    └── r_[subreddit].json    # Individual subreddit data
+├── topic_modelling/      # Topic modeling analysis module
+│   └── topic_modeling.py    # BERTopic analysis implementation
+├── results/              # Analysis results directory
+│   ├── scraped_data/     # Scraped data output directory
+│   │   ├── combined_data.json    # All collected posts
+│   │   ├── data_summary.json     # Collection statistics
+│   │   └── r_[subreddit].json    # Individual subreddit data
+│   └── topic_modelling_output/  # Topic modeling results (legacy location)
+└── docs/                 # Additional documentation
+    ├── .env.example              # Environment variables template
+    ├── GOALV1.md                 # Detailed project requirements
+    └── BERTOPIC_CONFIGURATION.md # BERTopic model configuration details
 ```
 
 ## Getting Started
@@ -88,10 +97,9 @@ python run_scraper.py --output my_data
 
 ### Default Subreddits
 
-The scraper is configured to collect from 13 data science and AI-related subreddits:
-- MachineLearning, datascience, Python, statistics, ArtificialIntelligence
-- deeplearning, DataEngineering, rstats, computervision, NLP
-- bigdata, analytics, machinelearningmemes
+The scraper is configured to collect from 11 Asian entertainment and media communities:
+- indiantellytalk, bollywood, kpop, kdramas, cdrama, cpop
+- jpop, anime, PPOPcommunity, AsianDrama, AsianCinema
 
 ### Output Format
 
@@ -130,7 +138,7 @@ python test_env_simple.py
 
 ### 3. Run Data Collection
 ```bash
-# Collect from all 13 subreddits (500 posts each)
+# Collect from all 11 subreddits (500 posts each)
 python run_scraper.py
 
 # Or collect from first 3 subreddits only
@@ -141,24 +149,60 @@ python run_scraper.py --posts 200
 ```
 
 ### 4. Check Results
-After running, you'll find collected data in the `data/` folder:
+After running, you'll find collected data in the `results/scraped_data/` folder:
 - `combined_data.json` - All posts in one file
 - `data_summary.json` - Collection statistics
 - `r_[subreddit].json` - Individual subreddit data
 
-### 5. Proceed to Analysis
-Once you have the data, move to the next phase:
-- Apply BERTopic for topic modeling
-- Compute similarity matrices
-- Generate visualizations
+### 5. Run Topic Modeling
+Once you have the data, run the BERTopic modeling analysis:
+
+```bash
+# Run BERTopic topic modeling pipeline
+python topic_modelling/topic_modeling.py
+```
+
+The topic modeling pipeline will:
+- Load posts from `results/scraped_data/combined_data.json`
+- Apply BERTopic with optimized parameters for social media content
+- Extract semantic topics using transformer-based embeddings
+- Analyze topic distributions across communities
+- Save results with proper JSON serialization
+
+**BERTopic Configuration:**
+- **Embedding Model**: all-MiniLM-L6-v2 for efficient semantic representations
+- **Clustering**: HDBSCAN with tuned parameters for granular topic discovery
+  - `min_cluster_size=30` for balanced topic granularity
+  - `min_samples=10` for stable cluster formation
+- **Vectorization**: Flexible CountVectorizer settings to capture diverse topics
+  - `min_df=3` to include more specific topics
+  - `max_df=0.85` to retain meaningful common terms
+- **Probability Estimation**: Enhanced calculation for better topic assignment confidence
+
+### 6. Check Analysis Results
+After topic modeling completes, find the results in `results/topic_modelling_output/`:
+- `topic_info.csv` - Topic metadata and statistics
+- `topic_analysis.json` - Detailed analysis including topic distributions
+- `posts_with_topics.csv` - All posts with assigned topics and probabilities
+- `topic_representations.json` - Top words for each topic (properly serialized from numpy arrays)
+
+### 7. Next Steps
+With the topic modeling complete, proceed to:
+- Compute cosine similarity matrices between communities
+- Apply K-means clustering to detect community groups
+- Generate visualizations (word clouds, 2D topic maps)
 
 ## Requirements
 
 - Python 3.8+
-- BERTopic library
-- Scikit-learn
-- Pandas, NumPy
+- BERTopic library for topic modeling
+- Sentence Transformers for embeddings
+- HDBSCAN for clustering
+- Scikit-learn for similarity analysis
+- Pandas, NumPy for data processing
 - Visualization libraries (Matplotlib, Seaborn)
+
+See `requirements.txt` for complete dependency list.
 
 ## License
 

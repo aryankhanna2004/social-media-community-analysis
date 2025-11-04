@@ -1,0 +1,131 @@
+Topic,Count,Name,Representation
+0,416,0_orchestral_mozart_composers_concerto,"['orchestral' 'mozart' 'composers' 'concerto' 'orchestra' 'composer'
+ 'symphony' 'beethoven' 'soundtracks' 'musical']"
+1,360,1_spotify_soundcloud_remix_remixes,"['spotify' 'soundcloud' 'remix' 'remixes' 'tapmusic' 'soundtrack' 'songs'
+ 'tunes' 'vocals' 'song']"
+2,357,2_soundtracks_soundtrack_musical_melody,"['soundtracks' 'soundtrack' 'musical' 'melody' 'tunes' 'music'
+ 'orchestral' 'symphony' 'remix' 'melodic']"
+3,218,3_rap_remix_song_remixes,"['rap' 'remix' 'song' 'remixes' 'tapmusic' 'songs' 'soundtrack' 'lyric'
+ 'album' 'lyrics']"
+4,218,4_soundtrack_song_remix_chorus,"['soundtrack' 'song' 'remix' 'chorus' 'lyric' 'remixes' 'tapmusic'
+ 'melody' 'ballad' 'lyrics']"
+5,195,5_songs_melody_tunes_ballad,"['songs' 'melody' 'tunes' 'ballad' 'remixes' 'soundtrack' 'soundtracks'
+ 'melodic' 'rap' 'song']"
+6,167,6_ballad_folk_songs_genres,"['ballad' 'folk' 'songs' 'genres' 'tunes' 'musical' 'melody' 'melodic'
+ 'genre' 'songwriter']"
+7,157,7_ballad_songs_melody_song,"['ballad' 'songs' 'melody' 'song' 'lyric' 'sang' 'lyrics' 'soundtrack'
+ 'tunes' 'rap']"
+8,151,8_musician_hendrix_singer_songwriter,"['musician' 'hendrix' 'singer' 'songwriter' 'singers' 'dj' 'musicians'
+ 'concert' 'albums' 'famous']"
+9,133,9_soundtrack_tapmusic_remix_remixes,"['soundtrack' 'tapmusic' 'remix' 'remixes' 'tunes' 'album' 'melody' 'song'
+ 'music' 'soundcloud']"
+10,117,10_singers_rap_artists_songs,"['singers' 'rap' 'artists' 'songs' 'genres' 'music' 'songstresses'
+ 'albums' 'genre' 'popheads']"
+11,114,11_remix_remixes_soundtrack_song,"['remix' 'remixes' 'soundtrack' 'song' 'instrumental' 'tapmusic' 'chorus'
+ 'vocals' 'soundcloud' 'melody']"
+12,105,12_funk_funkadelic_tunes_rap,"['funk' 'funkadelic' 'tunes' 'rap' 'jam' 'rhythm' 'beats' 'remixes'
+ 'melody' 'music']"
+13,98,13_concert_bandcamp_bands_band,"['concert' 'bandcamp' 'bands' 'band' 'vocals' 'drums' 'soundcloud'
+ 'musicians' 'tour' 'percussion']"
+14,92,14_remix_soundtrack_melody_musical,"['remix' 'soundtrack' 'melody' 'musical' 'instrumental' 'song' 'remixes'
+ 'concerto' 'music' 'lyric']"
+15,90,15_albums_album_cd_songs,"['albums' 'album' 'cd' 'songs' 'soundtrack' 'releases' 'remixes' 'concert'
+ 'vinyl' 'songwriter']"
+16,89,16_twitter_gossip_news_teatime,"['twitter' 'gossip' 'news' 'teatime' 'media' 'rumors' 'instagram'
+ 'content' 'celebrities' 'accusations']"
+17,88,17_tickets_ticket_concert_promo,"['tickets' 'ticket' 'concert' 'promo' 'festival' 'tour' 'going' 'lt' 'pm'
+ 'went']"
+18,87,18_remixes_remix_trap_rap,"['remixes' 'remix' 'trap' 'rap' 'tunes' 'spotify' 'songs' 'instrumental'
+ 'rhythm' 'soundtracks']"
+19,87,19_soundtrack_melody_remix_musical,"['soundtrack' 'melody' 'remix' 'musical' 'tapmusic' 'song' 'soundtracks'
+ 'symphony' 'playlist' 'tunes']"
+20,86,20_singers_songs_genres_music,"['singers' 'songs' 'genres' 'music' 'tunes' 'rap' 'artists' 'musicians'
+ 'country' 'genre']"
+21,78,21_upcoming_future_tomorrow_gonna,"['upcoming' 'future' 'tomorrow' 'gonna' 'forever' 'birthday' 'next'
+ 'september' 'releases' 'year']"
+22,77,22_popheads_songs_trending_pop,"['popheads' 'songs' 'trending' 'pop' 'popheadsjukebox' 'music' 'genres'
+ 'spotify' 'rap' 'kpop']"
+23,76,23_funk_funkadelic_tunes_remixes,"['funk' 'funkadelic' 'tunes' 'remixes' 'genres' 'rap' 'songs'
+ 'soundtracks' 'rhythm' 'remix']"
+24,74,24_edm_genres_rap_artists,"['edm' 'genres' 'rap' 'artists' 'songs' 'genre' 'music' 'soundtracks'
+ 'tunes' 'indie']"
+25,73,25_ballad_lyric_song_lyrics,"['ballad' 'lyric' 'song' 'lyrics' 'chorus' 'melody' 'sang' 'songs'
+ 'soundtrack' 'singer']"
+26,72,26_concert_funk_remixes_soundtracks,"['concert' 'funk' 'remixes' 'soundtracks' 'tunes' 'drums' 'music'
+ 'spotify' 'soundtrack' 'albums']"
+27,69,27_album_songs_remix_remixes,"['album' 'songs' 'remix' 'remixes' 'soundtrack' 'albums' 'lyrics'
+ 'songwriter' 'debut' 'artist']"
+28,65,28_band_bandcamp_bands_vocals,"['band' 'bandcamp' 'bands' 'vocals' 'album' 'chorus' 'songs' 'albums'
+ 'rock' 'song']"
+29,63,29_concert_tour_festival_tickets,"['concert' 'tour' 'festival' 'tickets' 'debut' 'july' 'bandcamp' 'ticket'
+ 'performances' 'saturday']"
+30,61,30_chorus_lyric_song_ballad,"['chorus' 'lyric' 'song' 'ballad' 'yukika' 'remixes' 'lyrics' 'remix'
+ 'vocals' 'soundtrack']"
+31,59,31_spotify_remixes_songs_remix,"['spotify' 'remixes' 'songs' 'remix' 'concert' 'tunes' 'listened'
+ 'soundcloud' 'playlist' 'tracks']"
+32,58,32_soundtrack_songwriter_sang_musical,"['soundtrack' 'songwriter' 'sang' 'musical' 'artist' 'bandcamp' 'musician'
+ 'hendrix' 'ballad' 'singer']"
+33,58,33_kpop_songs_genres_tunes,"['kpop' 'songs' 'genres' 'tunes' 'soundtracks' 'remixes' 'singers'
+ 'spotify' 'jpop' 'genre']"
+34,57,34_songs_albums_music_album,"['songs' 'albums' 'music' 'album' 'rap' 'tunes' 'song' 'concert' 'genres'
+ 'singers']"
+35,55,35_japanese_japan_singers_tokyo,"['japanese' 'japan' 'singers' 'tokyo' 'yukika' 'jpop' 'singer' 'kpop'
+ 'idol' 'vocals']"
+36,53,36_remix_songs_remixes_tunes,"['remix' 'songs' 'remixes' 'tunes' 'playlist' 'soundtracks' 'melodic'
+ 'melody' 'playlists' 'soundtrack']"
+37,52,37_punk_remixes_band_concert,"['punk' 'remixes' 'band' 'concert' 'bandcamp' 'chorus' 'sang' 'disco'
+ 'techno' 'soundtrack']"
+38,51,38_song_lyric_songs_chorus,"['song' 'lyric' 'songs' 'chorus' 'singer' 'ballad' 'lyrics' 'melody'
+ 'madonna' 'album']"
+39,50,39_albums_album_songs_remixes,"['albums' 'album' 'songs' 'remixes' 'concert' 'popheads' 'chorus'
+ 'songwriter' 'song' 'singers']"
+40,49,40_concert_musical_tour_musicians,"['concert' 'musical' 'tour' 'musicians' 'musician' 'ballad' 'vocals'
+ 'performances' 'songwriter' 'singers']"
+41,48,41_festival_concert_tour_bandcamp,"['festival' 'concert' 'tour' 'bandcamp' 'party' 'tickets' 'places' 'disco'
+ 'dancing' 'york']"
+42,48,42_songs_remixes_remix_chorus,"['songs' 'remixes' 'remix' 'chorus' 'listened' 'soundtrack' 'ballad'
+ 'album' 'melody' 'song']"
+43,48,43_songs_soundtrack_songwriter_song,"['songs' 'soundtrack' 'songwriter' 'song' 'album' 'chorus' 'albums' 'rap'
+ 'remix' 'melody']"
+44,48,44_lyric_taylor_singer_singers,"['lyric' 'taylor' 'singer' 'singers' 'songs' 'concert' 'songstresses'
+ 'song' 'idol' 'album']"
+45,47,45_remixes_soundcloud_remix_soundtrack,"['remixes' 'soundcloud' 'remix' 'soundtrack' 'tapmusic' 'grime' 'spotify'
+ 'tunes' 'songs' 'soundtracks']"
+46,45,46_rap_tunes_songs_riff,"['rap' 'tunes' 'songs' 'riff' 'musical' 'music' 'soundtrack' 'ballad'
+ 'lyric' 'song']"
+47,42,47_hendrix_bands_musicians_band,"['hendrix' 'bands' 'musicians' 'band' 'drums' 'music' 'concert' 'genres'
+ 'musician' 'albums']"
+48,42,48_melody_ballad_songs_song,"['melody' 'ballad' 'songs' 'song' 'intro' 'soundtrack' 'chorus' 'yukika'
+ 'melodic' 'soundtracks']"
+49,42,49_hendrix_musician_guitar_guitars,"['hendrix' 'musician' 'guitar' 'guitars' 'musicians' 'dj' 'songwriter'
+ 'funk' 'drums' 'concert']"
+50,41,50_releases_albums_album_release,"['releases' 'albums' 'album' 'release' 'upcoming' 'versions' 'released'
+ 'releasing' 'songs' 'latest']"
+51,40,51_funk_funkadelic_bands_albums,"['funk' 'funkadelic' 'bands' 'albums' 'band' 'artists' 'remixes' 'drums'
+ 'hendrix' 'disco']"
+52,39,52_songs_genres_singers_soundtracks,"['songs' 'genres' 'singers' 'soundtracks' 'songstresses' 'yukika' 'albums'
+ 'song' 'ballad' 'melody']"
+53,37,53_playlists_playlist_recommendations_genres,"['playlists' 'playlist' 'recommendations' 'genres' 'music' 'songs'
+ 'soundtracks' 'spotify' 'artists' 'musicians']"
+54,35,54_lyric_ballad_chorus_artist,"['lyric' 'ballad' 'chorus' 'artist' 'melody' 'tapmusic' 'song' 'lyrics'
+ 'singer' 'melodic']"
+55,35,55_songs_music_tunes_spotify,"['songs' 'music' 'tunes' 'spotify' 'tune' 'rate' 'song' 'musical' 'rap'
+ 'playlist']"
+56,34,56_spotify_songs_song_singers,"['spotify' 'songs' 'song' 'singers' 'album' 'concert' 'singer' 'albums'
+ 'popheads' 'tunes']"
+57,34,57_halloween_grime_punk_upcoming,"['halloween' 'grime' 'punk' 'upcoming' 'october' 'festival' 'kpop' 'oct'
+ 'remixes' 'remix']"
+58,33,58_songs_soundtracks_jpop_spotify,"['songs' 'soundtracks' 'jpop' 'spotify' 'remixes' 'kpop' 'tunes'
+ 'playlists' 'tapmusic' 'albums']"
+59,32,59_folk_songwriter_ballad_songs,"['folk' 'songwriter' 'ballad' 'songs' 'listened' 'sang' 'chorus'
+ 'recorded' 'singers' 'musicians']"
+60,28,60_tokyo_japanese_youtube_jpop,"['tokyo' 'japanese' 'youtube' 'jpop' 'search' 'remixes' 'links' 'yukika'
+ 'need' 'stream']"
+61,28,61_euroclub_concert_dance_gonna,"['euroclub' 'concert' 'dance' 'gonna' 'dancing' 'disco' 'upcoming' 'tune'
+ 'rhythm' 'funky']"
+62,26,62_sly_song_funk_rap,"['sly' 'song' 'funk' 'rap' 'album' 'lyric' 'songs' 'riff' 'soundtrack'
+ 'tunes']"
+63,25,63_trap_discussion_threads_stories,"['trap' 'discussion' 'threads' 'stories' 'discussed' 'topics' 'discuss'
+ 'weeklyhot' 'thread' 'weekly']"
+64,20,64_idol_singers_singer_yukika,"['idol' 'singers' 'singer' 'yukika' 'songstresses' 'artists' 'celebrities'
+ 'singing' 'sing' 'vocals']"
