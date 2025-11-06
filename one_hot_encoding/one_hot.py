@@ -15,20 +15,3 @@ print(one_hot.head())
 
 # Save the one-hot encoded DataFrame to a CSV file
 one_hot.to_csv("results/one_hot_encoding/one_hot_topics.csv", index=True)
-
-from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
-
-# Suppose 'one_hot' is your DataFrame
-# Compute cosine similarity between communities
-similarity_matrix = cosine_similarity(one_hot)
-
-# Convert to a DataFrame for easier handling
-similarity_df = pd.DataFrame(
-    similarity_matrix, 
-    index=one_hot.index, 
-    columns=one_hot.index
-)
-
-# View first few rows
-print(similarity_df.head())
