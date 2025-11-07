@@ -1,17 +1,23 @@
 import pandas as pd
+import numpy as np
 
-# Load your file
+# Load data and group by community and topic
 df = pd.read_csv("results/topic_modelling_output/posts_with_topics.csv", sep=",")
-
-# Group by subreddit (community) and topic number
 topic_counts = df.groupby(["subreddit", "topic"]).size().unstack(fill_value=0)
+community_totals = df.groupby("subreddit").size()
 
-# Apply a threshold: e.g., only keep topics with >= 5 posts in that subreddit
-threshold = 5
-one_hot = (topic_counts >= threshold).astype(int)
+# Apply percentage threshold (e.g., 3 = 3%)
+threshold_percentage = 3
+min_posts = (community_totals * threshold_percentage / 100).apply(np.ceil).astype(int)
 
-# View the first few rows
+# Create one-hot encoding: 1 if topic count >= threshold, else 0
+one_hot = topic_counts.copy()
+for community in topic_counts.index:
+    one_hot.loc[community] = (topic_counts.loc[community] >= min_posts[community]).astype(int)
+
+print(f"Threshold: {threshold_percentage}% per community")
+print(f"Average topics per community: {one_hot.sum(axis=1).mean():.2f}")
+print("\nOne-hot encoding preview:")
 print(one_hot.head())
 
-# Save the one-hot encoded DataFrame to a CSV file
 one_hot.to_csv("results/one_hot_encoding/one_hot_topics.csv", index=True)
