@@ -1,0 +1,722 @@
+{
+  "2": {
+    "silhouette_score": 0.10840544099904527,
+    "inertia": 65.0909090909091,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 1
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 1
+      },
+      {
+        "community": "country",
+        "cluster": 1
+      },
+      {
+        "community": "folk",
+        "cluster": 1
+      },
+      {
+        "community": "funk",
+        "cluster": 1
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 1
+      },
+      {
+        "community": "hiphop",
+        "cluster": 1
+      },
+      {
+        "community": "jpop",
+        "cluster": 0
+      },
+      {
+        "community": "kpop",
+        "cluster": 1
+      },
+      {
+        "community": "popheads",
+        "cluster": 1
+      },
+      {
+        "community": "rock",
+        "cluster": 1
+      },
+      {
+        "community": "trap",
+        "cluster": 1
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "jpop"
+      ],
+      "cluster_1": [
+        "EDM",
+        "classicalmusic",
+        "country",
+        "folk",
+        "funk",
+        "gamemusic",
+        "hiphop",
+        "kpop",
+        "popheads",
+        "rock",
+        "trap"
+      ]
+    }
+  },
+  "3": {
+    "silhouette_score": 0.08647180190839855,
+    "inertia": 55.89999999999999,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 0
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 0
+      },
+      {
+        "community": "country",
+        "cluster": 0
+      },
+      {
+        "community": "folk",
+        "cluster": 0
+      },
+      {
+        "community": "funk",
+        "cluster": 0
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 0
+      },
+      {
+        "community": "hiphop",
+        "cluster": 0
+      },
+      {
+        "community": "jpop",
+        "cluster": 2
+      },
+      {
+        "community": "kpop",
+        "cluster": 1
+      },
+      {
+        "community": "popheads",
+        "cluster": 0
+      },
+      {
+        "community": "rock",
+        "cluster": 0
+      },
+      {
+        "community": "trap",
+        "cluster": 0
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "EDM",
+        "classicalmusic",
+        "country",
+        "folk",
+        "funk",
+        "gamemusic",
+        "hiphop",
+        "popheads",
+        "rock",
+        "trap"
+      ],
+      "cluster_1": [
+        "kpop"
+      ],
+      "cluster_2": [
+        "jpop"
+      ]
+    }
+  },
+  "4": {
+    "silhouette_score": 0.04604549852118264,
+    "inertia": 46.800000000000004,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 1
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 3
+      },
+      {
+        "community": "country",
+        "cluster": 3
+      },
+      {
+        "community": "folk",
+        "cluster": 3
+      },
+      {
+        "community": "funk",
+        "cluster": 1
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 1
+      },
+      {
+        "community": "hiphop",
+        "cluster": 1
+      },
+      {
+        "community": "jpop",
+        "cluster": 0
+      },
+      {
+        "community": "kpop",
+        "cluster": 3
+      },
+      {
+        "community": "popheads",
+        "cluster": 3
+      },
+      {
+        "community": "rock",
+        "cluster": 2
+      },
+      {
+        "community": "trap",
+        "cluster": 1
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "jpop"
+      ],
+      "cluster_1": [
+        "EDM",
+        "funk",
+        "gamemusic",
+        "hiphop",
+        "trap"
+      ],
+      "cluster_2": [
+        "rock"
+      ],
+      "cluster_3": [
+        "classicalmusic",
+        "country",
+        "folk",
+        "kpop",
+        "popheads"
+      ]
+    }
+  },
+  "5": {
+    "silhouette_score": 0.05206033030245703,
+    "inertia": 38.16666666666666,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 2
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 2
+      },
+      {
+        "community": "country",
+        "cluster": 0
+      },
+      {
+        "community": "folk",
+        "cluster": 0
+      },
+      {
+        "community": "funk",
+        "cluster": 1
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 2
+      },
+      {
+        "community": "hiphop",
+        "cluster": 2
+      },
+      {
+        "community": "jpop",
+        "cluster": 4
+      },
+      {
+        "community": "kpop",
+        "cluster": 3
+      },
+      {
+        "community": "popheads",
+        "cluster": 0
+      },
+      {
+        "community": "rock",
+        "cluster": 2
+      },
+      {
+        "community": "trap",
+        "cluster": 2
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "country",
+        "folk",
+        "popheads"
+      ],
+      "cluster_1": [
+        "funk"
+      ],
+      "cluster_2": [
+        "EDM",
+        "classicalmusic",
+        "gamemusic",
+        "hiphop",
+        "rock",
+        "trap"
+      ],
+      "cluster_3": [
+        "kpop"
+      ],
+      "cluster_4": [
+        "jpop"
+      ]
+    }
+  },
+  "6": {
+    "silhouette_score": 0.030689812495251698,
+    "inertia": 31.499999999999993,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 2
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 2
+      },
+      {
+        "community": "country",
+        "cluster": 2
+      },
+      {
+        "community": "folk",
+        "cluster": 0
+      },
+      {
+        "community": "funk",
+        "cluster": 1
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 2
+      },
+      {
+        "community": "hiphop",
+        "cluster": 1
+      },
+      {
+        "community": "jpop",
+        "cluster": 3
+      },
+      {
+        "community": "kpop",
+        "cluster": 5
+      },
+      {
+        "community": "popheads",
+        "cluster": 4
+      },
+      {
+        "community": "rock",
+        "cluster": 2
+      },
+      {
+        "community": "trap",
+        "cluster": 2
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "folk"
+      ],
+      "cluster_1": [
+        "funk",
+        "hiphop"
+      ],
+      "cluster_2": [
+        "EDM",
+        "classicalmusic",
+        "country",
+        "gamemusic",
+        "rock",
+        "trap"
+      ],
+      "cluster_3": [
+        "jpop"
+      ],
+      "cluster_4": [
+        "popheads"
+      ],
+      "cluster_5": [
+        "kpop"
+      ]
+    }
+  },
+  "7": {
+    "silhouette_score": 0.050136873989952556,
+    "inertia": 22.5,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 1
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 1
+      },
+      {
+        "community": "country",
+        "cluster": 0
+      },
+      {
+        "community": "folk",
+        "cluster": 0
+      },
+      {
+        "community": "funk",
+        "cluster": 2
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 1
+      },
+      {
+        "community": "hiphop",
+        "cluster": 1
+      },
+      {
+        "community": "jpop",
+        "cluster": 6
+      },
+      {
+        "community": "kpop",
+        "cluster": 3
+      },
+      {
+        "community": "popheads",
+        "cluster": 5
+      },
+      {
+        "community": "rock",
+        "cluster": 4
+      },
+      {
+        "community": "trap",
+        "cluster": 1
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "country",
+        "folk"
+      ],
+      "cluster_1": [
+        "EDM",
+        "classicalmusic",
+        "gamemusic",
+        "hiphop",
+        "trap"
+      ],
+      "cluster_2": [
+        "funk"
+      ],
+      "cluster_3": [
+        "kpop"
+      ],
+      "cluster_4": [
+        "rock"
+      ],
+      "cluster_5": [
+        "popheads"
+      ],
+      "cluster_6": [
+        "jpop"
+      ]
+    }
+  },
+  "8": {
+    "silhouette_score": 0.020549513673756816,
+    "inertia": 17.200000000000003,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 1
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 1
+      },
+      {
+        "community": "country",
+        "cluster": 1
+      },
+      {
+        "community": "folk",
+        "cluster": 3
+      },
+      {
+        "community": "funk",
+        "cluster": 4
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 1
+      },
+      {
+        "community": "hiphop",
+        "cluster": 1
+      },
+      {
+        "community": "jpop",
+        "cluster": 2
+      },
+      {
+        "community": "kpop",
+        "cluster": 5
+      },
+      {
+        "community": "popheads",
+        "cluster": 7
+      },
+      {
+        "community": "rock",
+        "cluster": 0
+      },
+      {
+        "community": "trap",
+        "cluster": 6
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "rock"
+      ],
+      "cluster_1": [
+        "EDM",
+        "classicalmusic",
+        "country",
+        "gamemusic",
+        "hiphop"
+      ],
+      "cluster_2": [
+        "jpop"
+      ],
+      "cluster_3": [
+        "folk"
+      ],
+      "cluster_4": [
+        "funk"
+      ],
+      "cluster_5": [
+        "kpop"
+      ],
+      "cluster_6": [
+        "trap"
+      ],
+      "cluster_7": [
+        "popheads"
+      ]
+    }
+  },
+  "9": {
+    "silhouette_score": 0.009006273606884252,
+    "inertia": 12.25,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 1
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 1
+      },
+      {
+        "community": "country",
+        "cluster": 1
+      },
+      {
+        "community": "folk",
+        "cluster": 4
+      },
+      {
+        "community": "funk",
+        "cluster": 5
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 1
+      },
+      {
+        "community": "hiphop",
+        "cluster": 8
+      },
+      {
+        "community": "jpop",
+        "cluster": 2
+      },
+      {
+        "community": "kpop",
+        "cluster": 3
+      },
+      {
+        "community": "popheads",
+        "cluster": 6
+      },
+      {
+        "community": "rock",
+        "cluster": 0
+      },
+      {
+        "community": "trap",
+        "cluster": 7
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "rock"
+      ],
+      "cluster_1": [
+        "EDM",
+        "classicalmusic",
+        "country",
+        "gamemusic"
+      ],
+      "cluster_2": [
+        "jpop"
+      ],
+      "cluster_3": [
+        "kpop"
+      ],
+      "cluster_4": [
+        "folk"
+      ],
+      "cluster_5": [
+        "funk"
+      ],
+      "cluster_6": [
+        "popheads"
+      ],
+      "cluster_7": [
+        "trap"
+      ],
+      "cluster_8": [
+        "hiphop"
+      ]
+    }
+  },
+  "10": {
+    "silhouette_score": 0.011800817710284702,
+    "inertia": 7.333333333333333,
+    "cluster_assignments": [
+      {
+        "community": "EDM",
+        "cluster": 6
+      },
+      {
+        "community": "classicalmusic",
+        "cluster": 0
+      },
+      {
+        "community": "country",
+        "cluster": 0
+      },
+      {
+        "community": "folk",
+        "cluster": 2
+      },
+      {
+        "community": "funk",
+        "cluster": 3
+      },
+      {
+        "community": "gamemusic",
+        "cluster": 0
+      },
+      {
+        "community": "hiphop",
+        "cluster": 9
+      },
+      {
+        "community": "jpop",
+        "cluster": 1
+      },
+      {
+        "community": "kpop",
+        "cluster": 5
+      },
+      {
+        "community": "popheads",
+        "cluster": 7
+      },
+      {
+        "community": "rock",
+        "cluster": 4
+      },
+      {
+        "community": "trap",
+        "cluster": 8
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        "classicalmusic",
+        "country",
+        "gamemusic"
+      ],
+      "cluster_1": [
+        "jpop"
+      ],
+      "cluster_2": [
+        "folk"
+      ],
+      "cluster_3": [
+        "funk"
+      ],
+      "cluster_4": [
+        "rock"
+      ],
+      "cluster_5": [
+        "kpop"
+      ],
+      "cluster_6": [
+        "EDM"
+      ],
+      "cluster_7": [
+        "popheads"
+      ],
+      "cluster_8": [
+        "trap"
+      ],
+      "cluster_9": [
+        "hiphop"
+      ]
+    }
+  }
+}

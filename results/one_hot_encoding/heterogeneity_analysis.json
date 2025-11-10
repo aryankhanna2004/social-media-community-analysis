@@ -1,0 +1,26 @@
+{
+  "topic_counts": {
+    "EDM": 8,
+    "classicalmusic": 1,
+    "country": 5,
+    "folk": 10,
+    "funk": 11,
+    "gamemusic": 5,
+    "hiphop": 7,
+    "jpop": 13,
+    "kpop": 9,
+    "popheads": 10,
+    "rock": 10,
+    "trap": 8
+  },
+  "most_heterogeneous": {
+    "community": "jpop",
+    "num_topics": 13
+  },
+  "most_homogeneous": {
+    "community": "classicalmusic",
+    "num_topics": 1
+  },
+  "avg_topics_per_community": 8.083333333333334,
+  "std_topics_per_community": 3.2321772378645477
+}
