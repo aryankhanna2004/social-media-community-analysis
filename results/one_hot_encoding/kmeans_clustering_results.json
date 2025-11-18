@@ -147,7 +147,7 @@
   },
   "4": {
     "silhouette_score": 0.04604549852118264,
-    "inertia": 46.800000000000004,
+    "inertia": 46.8,
     "cluster_assignments": [
       {
         "community": "EDM",
@@ -223,7 +223,7 @@
   },
   "5": {
     "silhouette_score": 0.05206033030245703,
-    "inertia": 38.16666666666666,
+    "inertia": 38.166666666666664,
     "cluster_assignments": [
       {
         "community": "EDM",
