@@ -30,7 +30,16 @@ def generate_map(posts_df, community_name, output_dir):
     
     community_posts['x'] = tsne_results[:, 0]
     community_posts['y'] = tsne_results[:, 1]
-    community_posts['topic_str'] = community_posts['topic'].astype(str)
+    # Calculate topic counts and create labels
+    topic_counts = community_posts['topic'].value_counts()
+    
+    def get_label(topic):
+        count = topic_counts.get(topic, 0)
+        if topic == -1:
+            return f"Outliers (-1) (n={count})"
+        return f"{topic} (n={count})"
+
+    community_posts['topic_label'] = community_posts['topic'].apply(get_label)
     
     plt.figure(figsize=(14, 10))
     
@@ -38,22 +47,23 @@ def generate_map(posts_df, community_name, output_dir):
     valid_topics = [t for t in unique_topics if t != -1]
     
     palette = {}
+    hue_order = []
     if valid_topics:
         colors = sns.color_palette("tab20", len(valid_topics))
         for i, topic in enumerate(valid_topics):
-            palette[str(topic)] = colors[i]
-    
-    if -1 in unique_topics:
-        palette['-1'] = '#d3d3d3'
+            label = get_label(topic)
+            palette[label] = colors[i]
+            hue_order.append(label)
         
     outliers = community_posts[community_posts['topic'] == -1]
     if not outliers.empty:
-        plt.scatter(outliers['x'], outliers['y'], c='#d3d3d3', label='Outliers (-1)', alpha=0.5, s=40)
+        outlier_label = get_label(-1)
+        plt.scatter(outliers['x'], outliers['y'], c='#d3d3d3', label=outlier_label, alpha=0.5, s=40)
         
     valid_posts = community_posts[community_posts['topic'] != -1]
     if not valid_posts.empty:
         sns.scatterplot(
-            data=valid_posts, x='x', y='y', hue='topic_str', palette=palette,
+            data=valid_posts, x='x', y='y', hue='topic_label', palette=palette, hue_order=hue_order,
             legend='full', alpha=0.8, s=70, edgecolor='white', linewidth=0.5
         )
     
