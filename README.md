@@ -1,209 +1,74 @@
 # Social Media Community Analysis
 
-A comprehensive analysis project examining homogeneity and heterogeneity in social media communities using advanced machine learning techniques.
+This project analyzes different Reddit communities (subreddits) to see how similar they are based on the topics people discuss. It uses machine learning (BERTopic) to extract topics and then clusters communities together to find patterns.
 
-## Project Documentation
+## Folder Structure
 
 📄 **[Detailed Project Requirements & Guidelines](https://docs.google.com/document/d/1dnXiTp3WDfJuSFIQXRD8FMca91je2ij8LA49rWh5uj8/edit?usp=sharing)**
 
-## Overview
+*   **`scraping/`**: Contains the code to download posts from Reddit.
+*   **`topic_modelling/`**: Has the scripts that use AI to figure out what topics are in the posts.
+*   **`one_hot_encoding/`**: Converts the complex topic data into simple 1s and 0s so we can do math on it (like finding similarities).
+*   **`2D visualization/`**: Scripts to make graphs and word clouds so we can see the results.
+*   **`results/`**: This is where all the data goes.
+    *   `scraped_data/`: The raw JSON files from Reddit.
+    *   `topic_modelling_output/`: The topics found by the AI.
+    *   `one_hot_encoding/`: The matrices and clustering results.
+    *   `visualization/`: The generated charts.
+*   **`images/`**: Saved word cloud images.
+*   **`docs/`**: Extra documentation about the project goals.
 
-This project analyzes social media communities to understand their topic distributions, similarities, and clustering patterns. It employs BERTopic modeling, cosine similarity calculations, and K-means clustering to extract meaningful insights from community data.
+## How to Run
 
-## Features
+Follow these steps in order to run the whole project:
 
-- **Topic Modeling**: BERTopic-based semantic topic extraction optimized for social media posts
-  - Tuned HDBSCAN clustering for more granular topic discovery
-  - Enhanced probability estimation for better topic assignments
-  - Flexible vectorization to capture both specific and general topics
-- **Community Analysis**: Computes cosine similarity between communities based on topic distributions
-- **Clustering**: Applies K-means clustering to identify community groups
-- **Visualization**: Creates interactive visualizations including word clouds and 2D topic maps
-- **Similarity Matrix**: Builds asymmetric matrices showing shared topic fractions
-- **Robust Data Export**: Properly handles numpy array serialization to JSON format
-
-## Methodology
-
-1. **Data Collection**: Crawl posts from 10+ social media sub-communities
-2. **Topic Extraction**: Apply BERTopic modeling to identify topics
-3. **Community Representation**: Create one-hot topic vectors for each community
-4. **Similarity Analysis**: Compute cosine similarity and shared topic fractions
-5. **Clustering**: Use K-means to detect community clusters
-6. **Visualization**: Generate word clouds and 2D visualizations
-
-## Project Structure
-
-```
-social-media-community-analysis/
-├── README.md              # Project documentation
-├── LICENSE               # Project license
-├── requirements.txt      # Python dependencies
-├── run_scraper.py        # Main script to run data collection
-├── .env                  # Reddit API credentials (auto-loaded)
-├── scraping/             # Reddit data collection module
-│   ├── __init__.py      # Package initialization and configuration
-│   └── scraper.py       # Main scraping functionality
-├── topic_modelling/      # Topic modeling analysis module
-│   └── topic_modeling.py    # BERTopic analysis implementation
-├── results/              # Analysis results directory
-│   ├── scraped_data/     # Scraped data output directory
-│   │   ├── combined_data.json    # All collected posts
-│   │   ├── data_summary.json     # Collection statistics
-│   │   └── r_[subreddit].json    # Individual subreddit data
-│   └── topic_modelling_output/  # Topic modeling results (legacy location)
-└── docs/                 # Additional documentation
-    ├── .env.example              # Environment variables template
-    ├── GOALV1.md                 # Detailed project requirements
-    └── BERTOPIC_CONFIGURATION.md # BERTopic model configuration details
-```
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set up Reddit API credentials (see Data Collection section)
-4. Run data collection: `python run_scraper.py`
-5. Follow the detailed requirements in `GOALV1.md`
-
-## Data Collection
-
-This project collects data from Reddit subreddits using the official Reddit API. To use the scraper:
-
-### Reddit API Setup
-
-✅ **COMPLETED**: Your Reddit app is created and `.env` file is configured!
-
-The scraper automatically loads credentials from the `.env` file in your project root.
-
-**Credentials Setup**:  
-- Create a `.env` file in your project root using the template provided in `env-example.txt` (or `.env.example`).  
-- Fill in your own Reddit API `client_id` and `client_secret` as described in the template.
-
-### Running the Scraper
-
-```bash
-# Collect data from all configured subreddits
-python run_scraper.py
-
-# Collect from first 5 subreddits only
-python run_scraper.py --communities 5
-
-# Collect 200 posts per subreddit
-python run_scraper.py --posts 200
-
-# Save to custom directory
-python run_scraper.py --output my_data
-```
-
-### Default Subreddits
-
-The scraper is configured to collect from 11 Asian entertainment and media communities:
-- indiantellytalk, bollywood, kpop, kdramas, cdrama, cpop
-- jpop, anime, PPOPcommunity, AsianDrama, AsianCinema
-
-### Output Format
-
-Data is saved as JSON files with the following structure:
-
-```json
-{
-  "subreddit": "MachineLearning",
-  "post_id": "abc123",
-  "title": "Example Post Title",
-  "content": "Post content here...",
-  "author": "username",
-  "timestamp": "2024-01-15T10:30:00",
-  "url": "https://reddit.com/r/MachineLearning/comments/abc123/",
-  "score": 150,
-  "num_comments": 25,
-  "upvote_ratio": 0.85,
-  "is_original_content": false
-}
-```
-
-## Next Steps
-
-Now that your Reddit API is set up, you can:
-
-### 1. Install Dependencies
+### 1. Setup
+First, install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Test Credentials
-```bash
-# Test that .env credentials are loaded
-python test_env_simple.py
+You also need to create a `.env` file in the main folder with your Reddit API keys:
+```
+REDDIT_CLIENT_ID=your_id_here
+REDDIT_CLIENT_SECRET=your_secret_here
 ```
 
-### 3. Run Data Collection
+### 2. Get Data
+Run the scraper to download posts from the subreddits.
 ```bash
-# Collect from all 11 subreddits (500 posts each)
 python run_scraper.py
-
-# Or collect from first 3 subreddits only
-python run_scraper.py --communities 3
-
-# Or collect 200 posts per subreddit
-python run_scraper.py --posts 200
 ```
+*You can add `--posts 200` to download fewer posts if you want it to be faster.*
 
-### 4. Check Results
-After running, you'll find collected data in the `results/scraped_data/` folder:
-- `combined_data.json` - All posts in one file
-- `data_summary.json` - Collection statistics
-- `r_[subreddit].json` - Individual subreddit data
-
-### 5. Run Topic Modeling
-Once you have the data, run the BERTopic modeling analysis:
-
+### 3. Find Topics
+Run the topic modeling script. This uses BERTopic to read all the posts and find common themes.
 ```bash
-# Run BERTopic topic modeling pipeline
 python topic_modelling/topic_modeling.py
 ```
+*This might take a few minutes depending on how much data you collected.*
 
-The topic modeling pipeline will:
-- Load posts from `results/scraped_data/combined_data.json`
-- Apply BERTopic with optimized parameters for social media content
-- Extract semantic topics using transformer-based embeddings
-- Analyze topic distributions across communities
-- Save results with proper JSON serialization
+### 4. Process Topics
+Run this script to turn the topics into a simple "One-Hot" format (basically marking which topics are present in which subreddit).
+```bash
+python one_hot_encoding/one_hot.py
+```
 
-**BERTopic Configuration:**
-- **Embedding Model**: all-MiniLM-L6-v2 for efficient semantic representations
-- **Clustering**: HDBSCAN with tuned parameters for granular topic discovery
-  - `min_cluster_size=30` for balanced topic granularity
-  - `min_samples=10` for stable cluster formation
-- **Vectorization**: Flexible CountVectorizer settings to capture diverse topics
-  - `min_df=3` to include more specific topics
-  - `max_df=0.85` to retain meaningful common terms
-- **Probability Estimation**: Enhanced calculation for better topic assignment confidence
+### 5. Analyze
+Now you can run the analysis to see which communities are similar and group them using K-Means clustering.
+```bash
+python one_hot_encoding/cosine_kmeans.py
+```
 
-### 6. Check Analysis Results
-After topic modeling completes, find the results in `results/topic_modelling_output/`:
-- `topic_info.csv` - Topic metadata and statistics
-- `topic_analysis.json` - Detailed analysis including topic distributions
-- `posts_with_topics.csv` - All posts with assigned topics and probabilities
-- `topic_representations.json` - Top words for each topic (properly serialized from numpy arrays)
+### 6. Visualize
+Finally, generate the visualizations.
 
-### 7. Next Steps
-With the topic modeling complete, proceed to:
-- Compute cosine similarity matrices between communities
-- Apply K-means clustering to detect community groups
-- Generate visualizations (word clouds, 2D topic maps)
+To make the 2D maps:
+```bash
+python "2D visualization/tsne_visualization.py"
+```
 
-## Requirements
-
-- Python 3.8+
-- BERTopic library for topic modeling
-- Sentence Transformers for embeddings
-- HDBSCAN for clustering
-- Scikit-learn for similarity analysis
-- Pandas, NumPy for data processing
-- Visualization libraries (Matplotlib, Seaborn)
-
-See `requirements.txt` for complete dependency list.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+To make the word clouds:
+```bash
+python "2D visualization/wordclouds.py"
+```
